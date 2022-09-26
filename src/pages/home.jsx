@@ -35,10 +35,10 @@ export default function Home() {
             <a href="https://github.com/Abir-Tx">
               <button>GitHub</button>
             </a>
-            <a href="">
+            <a href="https://www.researchgate.net/profile/Mushfiqur-Abir">
               <button>Researchgate</button>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/mushfiqur-rahman-abir/">
               <button>LinkedIn</button>
             </a>
           </div>
