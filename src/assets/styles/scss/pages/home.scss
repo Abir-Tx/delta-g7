@@ -10,17 +10,17 @@
   align-items: center;
 }
 .members-con {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-evenly;
+  // align-items: center;
+  // align-content: center;
   .member {
-    width: 20%;
-    height: 52vh;
+    // width: 20%;
+    // height: 52vh;
     background-color: inherit;
     box-shadow: 2px 2px 5px var(--primary);
-    margin: 20px;
+    // margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
