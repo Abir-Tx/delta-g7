@@ -62,7 +62,7 @@ export default function Home() {
             <a href="">
               <button>Researchgate</button>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/sawon-mursalin-15426624a/">
               <button>LinkedIn</button>
             </a>
           </div>

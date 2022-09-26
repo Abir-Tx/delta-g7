@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 // Styles
 import "../assets/styles/css/error.min.css";
 
+// Image
+import erroImg from "../assets/images/404-not-found.png";
+
 export default function Error() {
   const navigate = useNavigate();
   return (
@@ -16,7 +19,8 @@ export default function Error() {
     >
       <div className="img-con">
         <img
-          src="https://www.pngitem.com/pimgs/m/255-2550411_404-error-images-free-png-transparent-png.png"
+          // src="https://www.pngitem.com/pimgs/m/255-2550411_404-error-images-free-png-transparent-png.png"
+          src={erroImg}
           alt="Error"
         />
       </div>

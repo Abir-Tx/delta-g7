@@ -40,12 +40,12 @@ export default function Header(props) {
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
-          {/* <li>
-            <NavLink to="/admin">Admin</NavLink>
+          <li>
+            <NavLink to="/project">Project</NavLink>
           </li>
           <li>
-            <NavLink to="/devlife">Dev Life</NavLink>
-          </li> */}
+            <NavLink to="/labs">Labs</NavLink>
+          </li>
           <li>
             <label className="switch">
               <input
