@@ -23,10 +23,17 @@
         }
       }
     }
+    a {
+      text-decoration: none;
+    }
     code {
       text-decoration: none;
       color: var(--primary);
       font-size: 1.2rem;
+      transition: 0.3s;
+      &:hover {
+        color: blue;
+      }
     }
   }
 }
