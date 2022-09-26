@@ -1,0 +1,34 @@
+@import "../variables.scss";
+.about-con {
+  color: var(--primary);
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 40px;
+    transition: 0.5s ease-in-out;
+    animation-name: aboutAnim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+
+    @keyframes aboutAnim {
+      from {
+        background-color: var(--secondary);
+      }
+      to {
+        background-color: var(--shade);
+      }
+    }
+  }
+
+  .main-con {
+    p {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      padding: 10px;
+    }
+  }
+}

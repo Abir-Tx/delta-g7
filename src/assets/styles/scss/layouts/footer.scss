@@ -1,0 +1,32 @@
+@import "../variables.scss";
+#footer {
+  footer {
+    background-color: var(--header, grey);
+    // color: var(--background);
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    transition: 0.3s ease-in;
+    box-shadow: 1px 1px 5px;
+
+    .foot-con {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      flex-direction: row;
+
+      .logos-con {
+        .xtrexLogo {
+          height: 32px;
+          width: 32px;
+        }
+      }
+    }
+    code {
+      text-decoration: none;
+      color: var(--primary);
+      font-size: 1.2rem;
+    }
+  }
+}
