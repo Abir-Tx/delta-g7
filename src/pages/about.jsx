@@ -51,6 +51,58 @@ export default function About() {
             </p>
           </div>
         </div>
+
+        <h1>Instructor</h1>
+        <div className="row">
+          <div className="col">
+            <div className="member">
+              <img src={mpImg} alt="Elma" className="img-fluid" />
+              <div className="btn-con">
+                <a href="#">
+                  <button>GitHub</button>
+                </a>
+                <a href="">
+                  <button>Researchgate</button>
+                </a>
+                <a href="https://www.linkedin.com/in/tarannum-elma-aaab67251/">
+                  <button>LinkedIn</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam
+            impedit suscipit veniam blanditiis delectus quisquam possimus, autem
+            nostrum odit. Officiis, dolores. Excepturi blanditiis consectetur
+            consequuntur architecto maxime repellendus ad!
+          </div>
+        </div>
+
+        <h1>Group Members</h1>
+        <div className="row">
+          <div className="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam
+            impedit suscipit veniam blanditiis delectus quisquam possimus, autem
+            nostrum odit. Officiis, dolores. Excepturi blanditiis consectetur
+            consequuntur architecto maxime repellendus ad!
+          </div>
+          <div className="col">
+            <div className="member">
+              <img src={mpImg} alt="Elma" className="img-fluid" />
+              <div className="btn-con">
+                <a href="#">
+                  <button>GitHub</button>
+                </a>
+                <a href="">
+                  <button>Researchgate</button>
+                </a>
+                <a href="https://www.linkedin.com/in/tarannum-elma-aaab67251/">
+                  <button>LinkedIn</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
