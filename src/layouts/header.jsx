@@ -47,6 +47,9 @@ export default function Header(props) {
             <NavLink to="/labs">Labs</NavLink>
           </li>
           <li>
+            <NavLink to="/lit-review">Litarature Review</NavLink>
+          </li>
+          <li>
             <label className="switch">
               <input
                 id="modeCheckBox"
