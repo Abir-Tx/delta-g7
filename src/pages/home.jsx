@@ -31,7 +31,7 @@ export default function Home() {
       <section>
         <div className="members-con">
           <div className="row">
-            <div className="col-sm-12 col-lg-3 col-md-4">
+            <div className="col  mx-1">
               <div className="member">
                 <img src={abirImg} alt="Abir" className="img-fluid" />
                 <div className="btn-con">
@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-3 col-md-4">
+            <div className="col  mx-1">
               <div className="member">
                 <img src={elmaImg} alt="Elma" className="img-fluid" />
                 <div className="btn-con">
@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-3 col-md-4">
+            <div className="col  mx-1">
               <div className="member">
                 <img src={sawonImg} alt="Sawon" className="img-fluid" />
                 <div className="btn-con">
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-3 col-md-4">
+            <div className="col  mx-1">
               <div className="member">
                 <img src={urmiImg} alt="Urmi" className="img-fluid" />
                 <div className="btn-con">
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-3 col-md-4 center">
+            <div className="col  mx-1">
               <div className="member">
                 <img src={emonImg} alt="Emon" className="img-fluid" />
                 <div className="btn-con">
