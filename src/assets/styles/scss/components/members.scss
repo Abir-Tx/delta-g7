@@ -1,7 +1,12 @@
 @import "../variables.scss";
 
 .members-con {
+  padding: 20px;
   .member {
+    img {
+      border-radius: 20px;
+    }
+    border-radius: 20px;
     background-color: inherit;
     box-shadow: 2px 2px 5px var(--primary);
     display: flex;
@@ -12,14 +17,11 @@
     transition: 0.3s ease-in-out;
     &:hover {
       box-shadow: 3px 3px 20px;
-      .btn-con {
-        background-color: blue;
-        display: flex;
-      }
     }
 
     .btn-con {
-      display: none;
+      padding: 10px;
+      display: flex;
       flex-direction: column;
       width: 100%;
       transition: 0.3s ease-in-out;
