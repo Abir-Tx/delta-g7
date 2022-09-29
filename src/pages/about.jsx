@@ -1,10 +1,21 @@
 import { motion } from "framer-motion";
+
 // Styles
 import "../assets/styles/css/about.min.css";
+
+// images
+import abirImg from "../assets/images/profile/abir.jpg";
+import emonImg from "../assets/images/profile/emon.jpg";
+import elmaImg from "../assets/images/profile/elma.jpg";
+import sawonImg from "../assets/images/profile/sawon.jpg";
+import urmiImg from "../assets/images/profile/urmi.jpg";
 
 import React from "react";
 
 import mpImg from "../assets/images/microProc.png";
+import Singles from "../components/singles";
+
+import details from "../assets/data/details.json";
 
 export default function About() {
   return (
@@ -79,29 +90,56 @@ export default function About() {
         </div>
 
         <h1>Group Members</h1>
-        <div className="row">
-          <div className="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam
-            impedit suscipit veniam blanditiis delectus quisquam possimus, autem
-            nostrum odit. Officiis, dolores. Excepturi blanditiis consectetur
-            consequuntur architecto maxime repellendus ad!
-          </div>
-          <div className="col">
-            <div className="member">
-              <img src={mpImg} alt="Elma" className="img-fluid" />
-              <div className="btn-con">
-                <a href="#">
-                  <button>GitHub</button>
-                </a>
-                <a href="">
-                  <button>Researchgate</button>
-                </a>
-                <a href="https://www.linkedin.com/in/tarannum-elma-aaab67251/">
-                  <button>LinkedIn</button>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="single-members">
+          <Singles
+            bio={details["abir"][0].bio}
+            img={abirImg}
+            name={details["abir"][0].name}
+            github={details["abir"][0].github}
+            rsg={details["abir"][0].rsg}
+            linkedin={details["abir"][0].linkedin}
+            start={false}
+          />
+
+          <Singles
+            bio={details["elma"][0].bio}
+            img={elmaImg}
+            name={details["elma"][0].name}
+            github={details["elma"][0].github}
+            rsg={details["elma"][0].rsg}
+            linkedin={details["elma"][0].linkedin}
+            start={true}
+          />
+
+          <Singles
+            bio={details["sawon"][0].bio}
+            img={sawonImg}
+            name={details["sawon"][0].name}
+            github={details["sawon"][0].github}
+            rsg={details["sawon"][0].rsg}
+            linkedin={details["sawon"][0].linkedin}
+            start={false}
+          />
+
+          <Singles
+            bio={details["urmi"][0].bio}
+            img={urmiImg}
+            name={details["urmi"][0].name}
+            github={details["urmi"][0].github}
+            rsg={details["urmi"][0].rsg}
+            linkedin={details["urmi"][0].linkedin}
+            start={true}
+          />
+
+          <Singles
+            bio={details["emon"][0].bio}
+            img={emonImg}
+            name={details["emon"][0].name}
+            github={details["emon"][0].github}
+            rsg={details["emon"][0].rsg}
+            linkedin={details["emon"][0].linkedin}
+            start={false}
+          />
         </div>
       </div>
     </motion.div>
