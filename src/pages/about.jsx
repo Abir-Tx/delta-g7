@@ -9,6 +9,7 @@ import emonImg from "../assets/images/profile/emon.jpg";
 import elmaImg from "../assets/images/profile/elma.jpg";
 import sawonImg from "../assets/images/profile/sawon.jpg";
 import urmiImg from "../assets/images/profile/urmi.jpg";
+import shidujamanImg from "../assets/images/profile/shidujaman-sir.jpg";
 
 import React from "react";
 
@@ -64,29 +65,16 @@ export default function About() {
         </div>
 
         <h1>Instructor</h1>
-        <div className="row">
-          <div className="col">
-            <div className="member">
-              <img src={mpImg} alt="Elma" className="img-fluid" />
-              <div className="btn-con">
-                <a href="#">
-                  <button>GitHub</button>
-                </a>
-                <a href="">
-                  <button>Researchgate</button>
-                </a>
-                <a href="https://www.linkedin.com/in/tarannum-elma-aaab67251/">
-                  <button>LinkedIn</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam
-            impedit suscipit veniam blanditiis delectus quisquam possimus, autem
-            nostrum odit. Officiis, dolores. Excepturi blanditiis consectetur
-            consequuntur architecto maxime repellendus ad!
-          </div>
+        <div className="instructor-con">
+          <Singles
+            bio={details["shidujaman"][0].bio}
+            img={shidujamanImg}
+            name={details["shidujaman"][0].name}
+            github={details["shidujaman"][0].github}
+            rsg={details["shidujaman"][0].rsg}
+            linkedin={details["shidujaman"][0].linkedin}
+            start={true}
+          />
         </div>
 
         <h1>Group Members</h1>

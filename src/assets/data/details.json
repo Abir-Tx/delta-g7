@@ -45,5 +45,14 @@
 			"linkedin":"https://www.linkedin.com/in/suraiya-akter-40355a251/?originalSubdomain=bd",
 			"rsg":"https://www.researchgate.net/profile/Suraiya-Akter-8"
 		}
+	],
+	"shidujaman":[
+	{
+			"name":"Dr. Mohammad Shidujaman",
+			"bio":"Dr. Mohammad Shidujaman is an Assistant Professor in the Department of Electrical and Electronic Engineering (EEE), Faculty of Engineering, American International University- Bangladesh (AIUB), Dhaka, Bangladesh. Mohammad Shidujaman holds a Ph.D. degree in Design from Tsinghua University. His research work emphasized developing expressive interaction design techniques for social robots that involve multidisciplinary research in Design for human-robot perceptual interconnection and worked under the supervision of Professor Haipeng Mi at the Media and Interaction Laboratory (MiLab). He has also worked as a Researcher at Future laboratory, Tsinghua University. He was a Visiting Researcher at the Chinthaka Lab (Image Processing and Robotics) at the Department of Electronic Engineering, Shibaura Institute of Technology, Toyosu Campus, Tokyo, Japan the year 2017. His research interests include Creativity and Innovation, Robotics and AI for Society, Human-Machine Interaction, AI Ethics, Social Robotics, Design Research, Cognitive Psychology, Cross-Cultural Design, User-Centered Design/Human-Centric Computing and Behavioral Analytics, Assistive Technology in Education, Healthcare and Entertainment, New Interaction Paradigm, Anthropomorphism, Wireless Power Transmission, Traveling Salesman Problem.",
+			"github":"#",
+			"linkedin":"#",
+			"rsg":"#"
+		}
 	]
 }
