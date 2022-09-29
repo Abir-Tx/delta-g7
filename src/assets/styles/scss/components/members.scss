@@ -12,12 +12,17 @@
     transition: 0.3s ease-in-out;
     &:hover {
       box-shadow: 3px 3px 20px;
+      .btn-con {
+        background-color: blue;
+        display: flex;
+      }
     }
 
     .btn-con {
-      display: flex;
+      display: none;
       flex-direction: column;
       width: 100%;
+      transition: 0.3s ease-in-out;
       button {
         padding: 10px;
         margin: 5px;
