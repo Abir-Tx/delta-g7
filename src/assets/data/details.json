@@ -1,0 +1,49 @@
+{
+	"abir": [
+		{
+			"name": "Mushfiqur Rahman Abir",
+			"bio": "I am Mushfiqur Rahman Abir - a learner & a tech enthusiast. I love doing photography & photo editing.  It gives me much pleasure. And i like to share those with the world. You can view my photography works on this site & also on my Facebook page. Currently I am a Computer Science Engineering student & learning programming. I was always very interested in computers & programming",
+			"github":"https://github.com/abir-tx",
+			"linkedin": "https://www.linkedin.com/in/mushfiqur-rahman-abir/",
+			"rsg": "https://www.researchgate.net/profile/Mushfiqur-Abir"
+		}
+	],
+	"elma":[
+		{
+			"name":"Tasnia Tarannom Elma",
+			"bio":"Elma",
+			"github":"https://github.com/Tasnia-Elma",
+			"linkedin":"https://www.linkedin.com/in/tarannum-elma-aaab67251/",
+			"rsg":"https://www.researchgate.net/profile/Tasnia-Elma"
+		}
+	],
+	"emon":[
+		
+		{
+			"name":"Md. Zobair Ibne Ataur",
+			"bio":"emon",
+			"github":"https://github.com/AlJobair079",
+			"linkedin":"https://www.linkedin.com/in/al-jobair-emon-0a2557226",
+			"rsg":"https://www.researchgate.net/profile/Al-Jobair-Ataur"
+		}
+	],
+
+	"sawon":[
+		{
+			"name":"Sawon Mursalin",
+			"bio":"sawon",
+			"github":"https://github.com/sawonmursalin",
+			"linkedin":"https://www.linkedin.com/in/sawon-mursalin-15426624a/",
+			"rsg":""
+		}
+	],
+	"urmi":[
+		{
+			"name":"Suraiya Urmi",
+			"bio":"urmi",
+			"github":"https://github.com/suraiya-akter",
+			"linkedin":"https://www.linkedin.com/in/suraiya-akter-40355a251/?originalSubdomain=bd",
+			"rsg":"https://www.researchgate.net/profile/Suraiya-Akter-8"
+		}
+	]
+}
