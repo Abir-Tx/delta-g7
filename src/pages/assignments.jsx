@@ -18,6 +18,7 @@ export default function Assignments() {
           hId="acc1"
           conId="con1"
           conIdHash="#con1"
+          show={true}
         ></AssignmentCard>
 
         <AssignmentCard
@@ -27,6 +28,33 @@ export default function Assignments() {
           hId="acc2"
           conId="con2"
           conIdHash="#con2"
+        ></AssignmentCard>
+
+        <AssignmentCard
+          name={details["sawon"][0].name}
+          amNo="1"
+          link="#"
+          hId="acc3"
+          conId="con3"
+          conIdHash="#con3"
+        ></AssignmentCard>
+
+        <AssignmentCard
+          name={details["urmi"][0].name}
+          amNo="1"
+          link="#"
+          hId="acc4"
+          conId="con4"
+          conIdHash="#con4"
+        ></AssignmentCard>
+
+        <AssignmentCard
+          name={details["emon"][0].name}
+          amNo="1"
+          link="#"
+          hId="acc5"
+          conId="con5"
+          conIdHash="#con5"
         ></AssignmentCard>
       </div>
     </div>

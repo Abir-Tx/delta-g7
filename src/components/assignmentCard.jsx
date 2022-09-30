@@ -19,7 +19,7 @@ export default function AssignmentCard(props) {
         </h2>
         <div
           id={props.conId}
-          class="accordion-collapse collapse show"
+          class={`accordion-collapse collapse ${props.show ? "show" : ""}`}
           aria-labelledby={props.hId}
           data-bs-parent="#accordionExample"
         >
