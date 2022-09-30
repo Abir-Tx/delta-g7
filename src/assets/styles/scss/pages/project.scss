@@ -1,0 +1,28 @@
+@import "../variables.scss";
+.project-con {
+  color: var(--primary);
+  .bg {
+    background-image: url("/src/assets/images/bg/pink-blue-bg.jpg");
+    height: 20vh;
+    //     margin: 10px;
+    width: 100%;
+
+    .title {
+      padding: 20px;
+      h1 {
+        font-size: 10vh;
+        color: white;
+        text-align: right;
+        padding: 20px;
+      }
+    }
+  }
+
+  .desc {
+    p {
+      span {
+        font-size: 5vh;
+      }
+    }
+  }
+}
