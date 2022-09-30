@@ -19,14 +19,16 @@ export default function Home() {
       // whileInView={{ scale: 1 }}
       layout
     >
-      <section className="landing">
-        <h1>Delta G7</h1>
-        <h4>Microprocessor Course Group 7</h4>
-      </section>
+      <div className="master-bg">
+        <section className="landing">
+          <h1>Delta G7</h1>
+          <h4>Microprocessor Course Group 7</h4>
+        </section>
 
-      <section>
-        <Members />
-      </section>
+        <section members-con>
+          <Members />
+        </section>
+      </div>
 
       <section className="project-sec p-4">
         <div className="row bg-primary p-3 align-items-center">

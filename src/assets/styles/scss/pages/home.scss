@@ -1,13 +1,18 @@
 // Stylesheet for the home page
 @import "../variables.scss";
 
-.landing {
-  color: var(--primary);
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.master-bg {
+  background-image: url("/src/assets/images/bg/blurry-gradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .landing {
+    color: var(--primary);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .project-sec {

@@ -59,9 +59,9 @@ export default function Header(props) {
           <li>
             <NavLink to="/lit-review">Litarature Review</NavLink>
           </li>
-          <li>
-            <NavLink to="/performance">Performance</NavLink>
-          </li>
+          {/* <li> */}
+          {/* <NavLink to="/performance">Performance</NavLink> */}
+          {/* </li> */}
           <li>
             <div class="dropdown">
               <button
