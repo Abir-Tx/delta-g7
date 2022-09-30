@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import "../assets/styles/css/project.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import pdfFile from "../assets/data/pdf/sample.pdf";
@@ -22,7 +23,13 @@ export default function Project() {
     changePage(+1);
   }
   return (
-    <div className="project-con">
+    <motion.div
+      className="project-con"
+      initial={{ opacity: 0, scale: 0.7 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0 }}
+      layout
+    >
       <div className="bg">
         <div className="title">
           <h1>Project</h1>
@@ -72,6 +79,6 @@ export default function Project() {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

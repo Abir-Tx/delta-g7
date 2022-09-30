@@ -2,10 +2,17 @@ import React from "react";
 import "../assets/styles/css/assignments.min.css";
 import AssignmentCard from "../components/assignmentCard";
 import details from "../assets/data/details.json";
+import { motion } from "framer-motion";
 
 export default function Assignments() {
   return (
-    <div className="assignments-page">
+    <motion.div
+      className="assignments-page"
+      initial={{ opacity: 0, scale: 0.7 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0 }}
+      layout
+    >
       <div className="assignments-bg">
         <h1>Assignments</h1>
       </div>
@@ -57,6 +64,6 @@ export default function Assignments() {
           conIdHash="#con5"
         ></AssignmentCard>
       </div>
-    </div>
+    </motion.div>
   );
 }
