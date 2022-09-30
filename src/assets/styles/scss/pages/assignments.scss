@@ -1,0 +1,16 @@
+.assignments-page {
+  color: var(--primary);
+  .assignments-bg {
+    background-image: url("/src/assets/images/bg/assignmets-bg.png");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 10vh;
+      text-decoration: underline solid 15px rgb(64, 177, 205);
+    }
+  }
+}

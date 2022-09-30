@@ -1,0 +1,30 @@
+.am-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+
+  .am1 {
+    background-color: rgb(64, 177, 205);
+    height: 15vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px;
+    transition: 0.4s ease;
+    &:hover {
+      box-shadow: 3px 3px 15px var(--primary);
+      cursor: pointer;
+      color: blue;
+    }
+
+    &:active {
+      box-shadow: 3px 3px 10px inset var(--primary);
+      color: red;
+    }
+  }
+}
