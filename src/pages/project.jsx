@@ -47,13 +47,17 @@ export default function Project() {
           <Page pageNumber={pageNumber} />
           <div className="navigation">
             {pageNumber > 1 && (
-              <button onClick={changePageBack}>Previous Page</button>
+              <button onClick={changePageBack}>
+                <p>&larr;</p>
+              </button>
             )}
             <p>
               Page {pageNumber} of {numPages}
             </p>
             {pageNumber < numPages && (
-              <button onClick={changePageNext}>Next Page</button>
+              <button onClick={changePageNext}>
+                <p>&rarr;</p>
+              </button>
             )}
           </div>
         </Document>
