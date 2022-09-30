@@ -37,7 +37,13 @@ export default function Members() {
 
           <div className="col  mx-1">
             <div className="member">
-              <img src={elmaImg} alt="Elma" className="img-fluid" />
+              <img
+                src={elmaImg}
+                alt="Elma"
+                height="92%"
+                width="92%"
+                className="img-fluid"
+              />
               <div className="btn-con">
                 <a href={details["elma"][0].github}>
                   <button>GitHub</button>
