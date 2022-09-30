@@ -105,7 +105,14 @@
 
   .dropdown:hover .dropbtn,
   .dropbtn:focus {
-    background-color: red;
+    color: var(--background);
+  }
+
+  .dropbtn {
+    color: var(--primary);
+    border: none;
+    text-decoration: none;
+    background-color: inherit;
   }
 
   .dropdown-content {

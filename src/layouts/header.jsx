@@ -53,16 +53,10 @@ export default function Header(props) {
             <NavLink to="/project">Project</NavLink>
           </li>
           <li>
-            <NavLink to="/labs">Labs</NavLink>
-          </li>
-          <li>
             <NavLink to="/lit-review">Litarature Review</NavLink>
           </li>
           <li>
             <NavLink to="/performance">Performance</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Activity">Activity</NavLink>
           </li>
           <li>
             <div class="dropdown">
@@ -72,16 +66,16 @@ export default function Header(props) {
                   document.getElementById("myDropdown").classList.toggle("show")
                 }
               >
-                Dropdown
+                Activities
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content" id="myDropdown">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="/theory">Theory</a>
+                <a href="/lab">Lab</a>
               </div>
             </div>
           </li>
+
           <li>
             <label className="switch">
               <input
