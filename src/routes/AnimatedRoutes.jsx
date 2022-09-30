@@ -10,6 +10,7 @@ import About from "../pages/about";
 // Components
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import Project from "../pages/project";
 
 export default function AnimatedRoutes(props) {
   const location = useLocation();
@@ -20,6 +21,7 @@ export default function AnimatedRoutes(props) {
         <Route path="/home" element={<Home />} />
         <Route path="/*" element={<Error />} />
         <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
     </AnimatePresence>
   );

@@ -40,8 +40,8 @@ export default function Members() {
               <img
                 src={elmaImg}
                 alt="Elma"
-                height="92%"
-                width="92%"
+                height="93.50%"
+                width="93.50%"
                 className="img-fluid"
               />
               <div className="btn-con">
