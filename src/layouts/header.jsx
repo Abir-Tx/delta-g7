@@ -52,6 +52,10 @@ export default function Header(props) {
           <li>
             <NavLink to="/project">Project</NavLink>
           </li>
+
+          <li>
+            <NavLink to="/assignments">Assignments</NavLink>
+          </li>
           <li>
             <NavLink to="/lit-review">Litarature Review</NavLink>
           </li>
