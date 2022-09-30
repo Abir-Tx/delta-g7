@@ -10,7 +10,7 @@ export default function Assignments() {
         <h1>Assignments</h1>
       </div>
 
-      <div class="accordion" id="accordionExample">
+      <div class="accordion accor-con" id="accordionExample">
         <AssignmentCard
           name={details["abir"][0].name}
           amNo="1"
