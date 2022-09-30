@@ -26,6 +26,9 @@ export default function Project() {
       <div className="bg">
         <div className="title">
           <h1>Project</h1>
+          <div className="subtitle">
+            <h5>IoT Based Heart Attack Detection</h5>
+          </div>
         </div>
       </div>
 
@@ -42,16 +45,28 @@ export default function Project() {
       <div className="proposal">
         <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber} />
+          <div className="navigation">
+            {pageNumber > 1 && (
+              <button onClick={changePageBack}>Previous Page</button>
+            )}
+            <p>
+              Page {pageNumber} of {numPages}
+            </p>
+            {pageNumber < numPages && (
+              <button onClick={changePageNext}>Next Page</button>
+            )}
+          </div>
         </Document>
-        <p>
-          Page {pageNumber} of {numPages}
-        </p>
-        {pageNumber > 1 && (
-          <button onClick={changePageBack}>Previous Page</button>
-        )}
-        {pageNumber < numPages && (
-          <button onClick={changePageNext}>Next Page</button>
-        )}
+
+        <div className="propDesc">
+          <h2>Project Proposal</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            consectetur, fuga deserunt quos repellat, voluptatibus ducimus iste
+            obcaecati illo commodi officiis aspernatur beatae nostrum ipsum
+            aperiam. Aliquid alias expedita veniam?
+          </p>
+        </div>
       </div>
     </div>
   );
