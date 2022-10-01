@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "../assets/styles/css/project.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import pdfFile from "../assets/data/pdf/sample.pdf";
+import pdfFile from "../assets/data/pdf/project-proposal.pdf";
 export default function Project() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
