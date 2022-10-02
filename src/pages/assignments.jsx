@@ -49,7 +49,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["urmi"][0].name}
           amNo="1"
-          link="#"
+          link="https://drive.google.com/file/d/1N-i-yDxlLHyegynzS9eAen7SRP3kPoiE/view?usp=sharing"
           hId="acc4"
           conId="con4"
           conIdHash="#con4"
