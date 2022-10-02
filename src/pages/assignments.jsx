@@ -40,7 +40,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["sawon"][0].name}
           amNo="1"
-          link="#"
+          link="https://drive.google.com/file/d/1IQLo0-MWsR4XrmEDriEet6nypYX0VY1h/view?usp=sharing"
           hId="acc3"
           conId="con3"
           conIdHash="#con3"
