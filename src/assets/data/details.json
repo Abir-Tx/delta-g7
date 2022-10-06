@@ -1,58 +1,56 @@
 {
-    "abir": [
-        {
-            "name": "Mushfiqur Rahman Abir",
-            "bio": "I am Mushfiqur Rahman Abir - a learner & a tech enthusiast. I love photography & photo editing.  It gives me much pleasure. And I like to share those with the world. You can view my photography works on this site & also on my Facebook page. Currently I am a Computer Science Engineering student & learning programming. I was always very interested in computers & programming",
-            "github":"https://github.com/abir-tx",
-            "linkedin": "https://www.linkedin.com/in/mushfiqur-rahman-abir/",
-            "rsg": "https://www.researchgate.net/profile/Mushfiqur-Abir"
-        }
-    ],
-    "elma":[
-        {
-            "name":"Tasnia Tarannom Elma",
-            "bio":"Elma",
-            "github":"https://github.com/Tasnia-Elma",
-            "linkedin":"https://www.linkedin.com/in/tarannum-elma-aaab67251/",
-            "rsg":"https://www.researchgate.net/profile/Tasnia-Elma"
-        }
-    ],
-    "emon":[
-        
-        {
-            "name":"Md. Zobair Ibne Ataur",
-            "bio":"emon",
-            "github":"https://github.com/AlJobair079",
-            "linkedin":"https://www.linkedin.com/in/al-jobair-emon-0a2557226",
-            "rsg":"https://www.researchgate.net/profile/Al-Jobair-Ataur"
-        }
-    ],
- 
-    "sawon":[
-        {
-            "name":"Sawon Mursalin",
-            "bio": "My name is Sawon Mursalin. I am an experienced graphic designer who experiments with Adobe Illustrator and Photoshop. Since 2022, I have been employed as a skilled designer. AutoCAD is a skill I also have. In my time at school and in college, I also worked for the Bangladesh National Cadet Corps (BNCC) and Scout. I'm a computer science engineering student at AIUB right now.",
-            "github":"https://github.com/sawonmursalin",
-            "linkedin":"https://www.linkedin.com/in/sawon-mursalin-15426624a/",
-            "rsg":"https://www.researchgate.net/profile/Sawon-Mursalin"
-        }
-    ],
-    "urmi":[
-        {
-            "name":"Suraiya Urmi",
-            "bio":"I am Suraiya Akter - student of American International University-Bangladesh(AIUB). Now I am a Computer Science Engineering student in this university & I learn programming.I am very interested in computer programming. I love doing  cooking, traveling and I also interested music and read some book.i also very interest in sleeping in my free time and i really love this.",
-            "github":"https://github.com/suraiya-akter",
-            "linkedin":"https://www.linkedin.com/in/suraiya-akter-40355a251/?originalSubdomain=bd",
-            "rsg":"https://www.researchgate.net/profile/Suraiya-Akter-8"
-        }
-    ],
-    "shidujaman":[
+  "abir": [
     {
-            "name":"Dr. Mohammad Shidujaman",
-            "bio":"Dr. Mohammad Shidujaman is an Assistant Professor in the Department of Electrical and Electronic Engineering (EEE), Faculty of Engineering, American International University- Bangladesh (AIUB), Dhaka, Bangladesh. Mohammad Shidujaman holds a Ph.D. degree in Design from Tsinghua University. His research work emphasized developing expressive interaction design techniques for social robots that involve multidisciplinary research in Design for human-robot perceptual interconnection and worked under the supervision of Professor Haipeng Mi at the Media and Interaction Laboratory (MiLab). He has also worked as a Researcher at Future laboratory, Tsinghua University. He was a Visiting Researcher at the Chinthaka Lab (Image Processing and Robotics) at the Department of Electronic Engineering, Shibaura Institute of Technology, Toyosu Campus, Tokyo, Japan the year 2017. His research interests include Creativity and Innovation, Robotics and AI for Society, Human-Machine Interaction, AI Ethics, Social Robotics, Design Research, Cognitive Psychology, Cross-Cultural Design, User-Centered Design/Human-Centric Computing and Behavioral Analytics, Assistive Technology in Education, Healthcare and Entertainment, New Interaction Paradigm, Anthropomorphism, Wireless Power Transmission, Traveling Salesman Problem.",
-            "github":"#",
-            "linkedin":"https://www.linkedin.com/in/mohammad-shidujaman-phd-104a2848/",
-            "rsg":"https://www.researchgate.net/profile/Mohammad-Shidujaman"
-        }
-    ]
+      "name": "Mushfiqur Rahman Abir",
+      "bio": "I am Mushfiqur Rahman Abir - a learner & a tech enthusiast. I love photography & photo editing.  It gives me much pleasure. And I like to share those with the world. You can view my photography works on this site & also on my Facebook page. Currently I am a Computer Science Engineering student & learning programming. I was always very interested in computers & programming",
+      "github": "https://github.com/abir-tx",
+      "linkedin": "https://www.linkedin.com/in/mushfiqur-rahman-abir/",
+      "rsg": "https://www.researchgate.net/profile/Mushfiqur-Abir"
+    }
+  ],
+  "elma": [
+    {
+      "name": "Tasnia Tarannom Elma",
+      "bio": "Elma",
+      "github": "https://github.com/Tasnia-Elma",
+      "linkedin": "https://www.linkedin.com/in/tarannum-elma-aaab67251/",
+      "rsg": "https://www.researchgate.net/profile/Tasnia-Elma"
+    }
+  ],
+  "emon": [
+    {
+      "name": "Md. Zobair Ibne Ataur",
+      "bio": "Hello! I'm Al-Jobair Ibna Ataur is an accomplished explorer, programmer,designer and author. I enjoy traveling all throughout the year to see the wonders of the natural world and to learn about various human cultures. I'm a CSE student at AIUB right now. That is why issues relating to IT are so prevalent. primarily security-related work.  I'm highly interested on English and Bengali literature as well as various digital and non-digital design. I enjoy watching movies, TV-Series, and football games in my free time.",
+      "github": "https://github.com/AlJobair079",
+      "linkedin": "https://www.linkedin.com/in/al-jobair-emon-0a2557226",
+      "rsg": "https://www.researchgate.net/profile/Al-Jobair-Ataur"
+    }
+  ],
+  "sawon": [
+    {
+      "name": "Sawon Mursalin",
+      "bio": "My name is Sawon Mursalin. I am an experienced graphic designer who experiments with Adobe Illustrator and Photoshop. Since 2022, I have been employed as a skilled designer. AutoCAD is a skill I also have. In my time at school and in college, I also worked for the Bangladesh National Cadet Corps (BNCC) and Scout. I'm a computer science engineering student at AIUB right now.",
+      "github": "https://github.com/sawonmursalin",
+      "linkedin": "https://www.linkedin.com/in/sawon-mursalin-15426624a/",
+      "rsg": "https://www.researchgate.net/profile/Sawon-Mursalin"
+    }
+  ],
+  "urmi": [
+    {
+      "name": "Suraiya Urmi",
+      "bio": "I am Suraiya Akter - student of American International University-Bangladesh(AIUB). Now I am a Computer Science Engineering student in this university & I learn programming.I am very interested in computer programming. I love doing  cooking, traveling and I also interested music and read some book.i also very interest in sleeping in my free time and i really love this.",
+      "github": "https://github.com/suraiya-akter",
+      "linkedin": "https://www.linkedin.com/in/suraiya-akter-40355a251/?originalSubdomain=bd",
+      "rsg": "https://www.researchgate.net/profile/Suraiya-Akter-8"
+    }
+  ],
+  "shidujaman": [
+    {
+      "name": "Dr. Mohammad Shidujaman",
+      "bio": "Dr. Mohammad Shidujaman is an Assistant Professor in the Department of Electrical and Electronic Engineering (EEE), Faculty of Engineering, American International University- Bangladesh (AIUB), Dhaka, Bangladesh. Mohammad Shidujaman holds a Ph.D. degree in Design from Tsinghua University. His research work emphasized developing expressive interaction design techniques for social robots that involve multidisciplinary research in Design for human-robot perceptual interconnection and worked under the supervision of Professor Haipeng Mi at the Media and Interaction Laboratory (MiLab). He has also worked as a Researcher at Future laboratory, Tsinghua University. He was a Visiting Researcher at the Chinthaka Lab (Image Processing and Robotics) at the Department of Electronic Engineering, Shibaura Institute of Technology, Toyosu Campus, Tokyo, Japan the year 2017. His research interests include Creativity and Innovation, Robotics and AI for Society, Human-Machine Interaction, AI Ethics, Social Robotics, Design Research, Cognitive Psychology, Cross-Cultural Design, User-Centered Design/Human-Centric Computing and Behavioral Analytics, Assistive Technology in Education, Healthcare and Entertainment, New Interaction Paradigm, Anthropomorphism, Wireless Power Transmission, Traveling Salesman Problem.",
+      "github": "#",
+      "linkedin": "https://www.linkedin.com/in/mohammad-shidujaman-phd-104a2848/",
+      "rsg": "https://www.researchgate.net/profile/Mohammad-Shidujaman"
+    }
+  ]
 }
