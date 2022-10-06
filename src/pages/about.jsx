@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import backupDetails from "../assets/data/details.json";
 
 // Styles
 import "../assets/styles/css/about.min.css";
@@ -11,14 +13,20 @@ import sawonImg from "../assets/images/profile/sawon.jpg";
 import urmiImg from "../assets/images/profile/urmi.jpg";
 import shidujamanImg from "../assets/images/profile/shidujaman-sir.jpg";
 
-import React from "react";
-
 import mpImg from "../assets/images/microProc.png";
 import Singles from "../components/singles";
 
-import details from "../assets/data/details.json";
-
 export default function About() {
+  const [details, setTest] = useState(backupDetails);
+  useEffect(() => {
+    fetch("https://jsonblob.com/api/jsonBlob/1026725589796798464")
+      .then((response) => response.json())
+      .then((data) => setTest(data))
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
     <motion.div
       className="about-con"

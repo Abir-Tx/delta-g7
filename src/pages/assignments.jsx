@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import backupDetails from "../assets/data/details.json";
 import "../assets/styles/css/assignments.min.css";
 import AssignmentCard from "../components/assignmentCard";
-import details from "../assets/data/details.json";
 import { motion } from "framer-motion";
 
 export default function Assignments() {
+  const [details, setTest] = useState(backupDetails);
+  useEffect(() => {
+    fetch("https://jsonblob.com/api/jsonBlob/1026725589796798464")
+      .then((response) => response.json())
+      .then((data) => setTest(data))
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
     <motion.div
       className="assignments-page"
