@@ -41,7 +41,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["elma"][0].name}
           amNo="1"
-          link="#"
+          link={details["elma"][0]["assignment"][0].ass1}
           hId="acc2"
           conId="con2"
           conIdHash="#con2"
@@ -68,7 +68,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["emon"][0].name}
           amNo="1"
-          link="#"
+          elma={details["emon"][0]["assignment"][0].ass1}
           hId="acc5"
           conId="con5"
           conIdHash="#con5"
