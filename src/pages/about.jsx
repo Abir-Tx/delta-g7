@@ -94,6 +94,8 @@ export default function About() {
             github={details["abir"][0].github}
             rsg={details["abir"][0].rsg}
             linkedin={details["abir"][0].linkedin}
+            id={details["abir"][0].id}
+            email={details["abir"][0].email}
             start={false}
           />
 
@@ -104,6 +106,8 @@ export default function About() {
             github={details["elma"][0].github}
             rsg={details["elma"][0].rsg}
             linkedin={details["elma"][0].linkedin}
+            id={details["elma"][0].id}
+            email={details["elma"][0].email}
             start={true}
           />
 
@@ -114,6 +118,8 @@ export default function About() {
             github={details["sawon"][0].github}
             rsg={details["sawon"][0].rsg}
             linkedin={details["sawon"][0].linkedin}
+            id={details["sawon"][0].id}
+            email={details["sawon"][0].email}
             start={false}
           />
 
@@ -124,6 +130,8 @@ export default function About() {
             github={details["urmi"][0].github}
             rsg={details["urmi"][0].rsg}
             linkedin={details["urmi"][0].linkedin}
+            id={details["urmi"][0].id}
+            email={details["urmi"][0].email}
             start={true}
           />
 
@@ -134,6 +142,8 @@ export default function About() {
             github={details["emon"][0].github}
             rsg={details["emon"][0].rsg}
             linkedin={details["emon"][0].linkedin}
+            id={details["emon"][0].id}
+            email={details["emon"][0].email}
             start={false}
           />
         </div>

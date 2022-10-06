@@ -10,6 +10,21 @@ export default function Singles(props) {
         <div className="first-con">
           <div className="bio-con">
             <p className="bio">{props.bio}</p>
+
+            <div className="post-bio">
+              <hr />
+              <b>
+                <span>Name: </span>
+                {props.name}
+                <br />
+                <span>ID: </span>
+                {props.id}
+                <br />
+                <span>Email: </span>
+                {props.email}
+              </b>
+              <hr />
+            </div>
           </div>
 
           <div className="img-con ">
@@ -38,6 +53,21 @@ export default function Singles(props) {
         <div className="first-con">
           <div className="bio-con">
             <p className="bio">{props.bio}</p>
+
+            <div className="post-bio">
+              <hr />
+              <b>
+                <span>Name: </span>
+                {props.name}
+                <br />
+                <span>ID: </span>
+                {props.id}
+                <br />
+                <span>Email: </span>
+                {props.email}
+              </b>
+              <hr />
+            </div>
           </div>
 
           <div className="img-con ">
