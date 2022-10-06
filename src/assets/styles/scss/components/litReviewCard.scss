@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.litRevCard-con {
+  color: var(--primary);
+  padding: 30px;
+  border-radius: 80px;
+  //   box-shadow: 4px 4px 5px grey;
+  margin: 10px;
+
+  .title-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .title-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .pdf-con {
+    display: flex;
+    padding: 30px;
+
+    .revText-con {
+      padding: 20px;
+
+      .ref-con {
+      }
+    }
+  }
+}

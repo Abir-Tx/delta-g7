@@ -10,19 +10,31 @@
         {
           "ass1": "https://drive.google.com/file/d/1XAivjrcOoWEWC221fayGDGEyqLA9ixbR/view?usp=sharing"
         }
+      ],
+            "refs":[
+        {
+          "ref1": "#",
+          "ref2": "#"
+        }
       ]
     }
   ],
   "elma": [
     {
       "name": "Tasnia Tarannom Elma",
-      "bio": "Elma",
+      "bio": "\"I am Tasnia Tarannom Elma.I'm Computer Science Engineering student in American International University of Bangladesh (AIUB).I am learning programming and I am also interested in software development.I love singing and I love baking in my free time.",
       "github": "https://github.com/Tasnia-Elma",
       "linkedin": "https://www.linkedin.com/in/tarannum-elma-aaab67251/",
       "rsg": "https://www.researchgate.net/profile/Tasnia-Elma",
       "assignment": [
         {
-          "ass1": "#"
+          "ass1": "https://drive.google.com/file/d/1-BKwGhssljg6SL-lFzxQGsIg-jrhIqvb/view?usp=drivesdk"
+        }
+      ],
+                  "refs":[
+        {
+          "ref1": "#",
+          "ref2": "#"
         }
       ]
     }
@@ -38,6 +50,12 @@
         {
           "ass1": "#"
         }
+      ],
+                  "refs":[
+        {
+          "ref1": "#",
+          "ref2": "#"
+        }
       ]
     }
   ],
@@ -52,6 +70,12 @@
         {
           "ass1": "https://drive.google.com/file/d/1IQLo0-MWsR4XrmEDriEet6nypYX0VY1h/view?usp=sharing"
         }
+      ],
+                  "refs":[
+        {
+          "ref1": "#",
+          "ref2": "#"
+        }
       ]
     }
   ],
@@ -65,6 +89,12 @@
       "assignment": [
         {
           "ass1": "https://drive.google.com/file/d/1N-i-yDxlLHyegynzS9eAen7SRP3kPoiE/view?usp=sharing"
+        }
+      ],
+                  "refs":[
+        {
+          "ref1": "#",
+          "ref2": "#"
         }
       ]
     }
