@@ -43,6 +43,27 @@ export default function LitReview() {
           review="Hey this is a test"
           refName="elma"
         />
+
+        <LitReviewCard
+          image={sawonImg}
+          pdf={pdfFile}
+          review="Hey this is a test"
+          refName="sawon"
+        />
+
+        <LitReviewCard
+          image={urmiImg}
+          pdf={pdfFile}
+          review="Hey this is a test"
+          refName="urmi"
+        />
+
+        <LitReviewCard
+          image={emonImg}
+          pdf={pdfFile}
+          review="Hey this is a test"
+          refName="emon"
+        />
       </div>
     </motion.div>
   );
