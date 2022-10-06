@@ -31,7 +31,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["abir"][0].name}
           amNo="1"
-          link="https://drive.google.com/file/d/1XAivjrcOoWEWC221fayGDGEyqLA9ixbR/view?usp=sharing"
+          link={details["abir"][0]["assignment"][0].ass1}
           hId="acc1"
           conId="con1"
           conIdHash="#con1"
@@ -50,7 +50,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["sawon"][0].name}
           amNo="1"
-          link="https://drive.google.com/file/d/1IQLo0-MWsR4XrmEDriEet6nypYX0VY1h/view?usp=sharing"
+          link={details["sawon"][0]["assignment"][0].ass1}
           hId="acc3"
           conId="con3"
           conIdHash="#con3"
@@ -59,7 +59,7 @@ export default function Assignments() {
         <AssignmentCard
           name={details["urmi"][0].name}
           amNo="1"
-          link="https://drive.google.com/file/d/1N-i-yDxlLHyegynzS9eAen7SRP3kPoiE/view?usp=sharing"
+          link={details["urmi"][0]["assignment"][0].ass1}
           hId="acc4"
           conId="con4"
           conIdHash="#con4"
