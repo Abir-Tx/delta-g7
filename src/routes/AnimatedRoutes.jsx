@@ -12,6 +12,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Project from "../pages/project";
 import Assignments from "../pages/assignments";
+import LitReview from "../pages/litReview";
 
 export default function AnimatedRoutes(props) {
   const location = useLocation();
@@ -24,6 +25,7 @@ export default function AnimatedRoutes(props) {
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
         <Route path="/assignments" element={<Assignments />} />
+        <Route path="/lit-review" element={<LitReview />} />
       </Routes>
     </AnimatePresence>
   );
