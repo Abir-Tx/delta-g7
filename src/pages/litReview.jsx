@@ -2,8 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../assets/styles/css/litReview.min.css";
 import LitReviewCard from "../components/litReviewCard";
-import abirImg from "../assets/images/profile/abir.jpg";
 import pdfFile from "../assets/data/pdf/project-proposal.pdf";
+
+// images
+import abirImg from "../assets/images/profile/abir.jpg";
+import emonImg from "../assets/images/profile/emon.jpg";
+import elmaImg from "../assets/images/profile/elma.jpg";
+import sawonImg from "../assets/images/profile/sawon.jpg";
+import urmiImg from "../assets/images/profile/urmi.jpg";
 
 export default function LitReview() {
   return (
@@ -32,7 +38,7 @@ export default function LitReview() {
         />
 
         <LitReviewCard
-          image={abirImg}
+          image={elmaImg}
           pdf={pdfFile}
           review="Hey this is a test"
           refName="elma"

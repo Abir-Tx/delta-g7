@@ -22,6 +22,19 @@
     display: flex;
     padding: 30px;
 
+    a {
+      text-decoration: none;
+      .fullView {
+        text-align: center;
+        font-size: xx-large;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          color: red;
+          text-decoration: underline;
+        }
+      }
+    }
+
     .revText-con {
       padding: 20px;
 

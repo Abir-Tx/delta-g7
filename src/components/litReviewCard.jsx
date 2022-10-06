@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import "../assets/styles/css/litReviewCard.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import { useState } from "react";
@@ -27,9 +26,12 @@ export default function LitReviewCard(props) {
       </div>
 
       <div className="pdf-con">
-        <Document file={props.pdf}>
-          <Page pageNumber={1} height={500} />
-        </Document>
+        <a href={details[props.refName][0].litRevLink}>
+          <Document file={props.pdf}>
+            <Page pageNumber={1} height={500} />
+            <p className="fullView">Full View</p>
+          </Document>
+        </a>
 
         <div className="revText-con">
           <h4>Short Summary</h4>
