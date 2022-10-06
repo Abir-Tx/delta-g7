@@ -1,12 +1,25 @@
 :root {
-  --primary: black;
-  --background: white;
-  --secondary: rgb(179, 231, 234);
-  --shade: red;
-  --header: aqua;
+  /* CSS HEX */
+  --primary: #03045eff;
+  --dark-cornflower-blue: #023e8aff;
+  --secondary1: #0077b6ff;
+  --header: #0096c7ff;
+  --secondary2: #00b4d8ff;
+  --shade: #48cae4ff;
+  --middle-blue: #90e0efff;
+  --secondary: #ade8f4ff;
+  --background: #caf0f8ff;
 
   --cardsShade: black;
   --cardsBg: inherit;
+}
+
+.backup {
+  --primary: black;
+  --background: white;
+  --secondary: rgb(77, 86, 87);
+  --shade: red;
+  --header: aqua;
 }
 
 .dark {
@@ -37,7 +50,7 @@
 .brightLight {
   --primary: #45706b;
   --background: #cdf0ea;
-  --secondary: #ecc5fb;
+  --secondary: #5a545c;
   --shade: #faf4b7;
   --header: #cdf0ea;
 }
