@@ -13,6 +13,8 @@ import { AnimatePresence } from "framer-motion";
 import Project from "../pages/project";
 import Assignments from "../pages/assignments";
 import LitReview from "../pages/litReview";
+import Theory from "../pages/activities/theory";
+import Lab from "../pages/activities/lab";
 
 export default function AnimatedRoutes(props) {
   const location = useLocation();
@@ -26,6 +28,8 @@ export default function AnimatedRoutes(props) {
         <Route path="/project" element={<Project />} />
         <Route path="/assignments" element={<Assignments />} />
         <Route path="/lit-review" element={<LitReview />} />
+        <Route path="/activities/theory" element={<Theory />} />
+        <Route path="/activities/lab" element={<Lab />} />
       </Routes>
     </AnimatePresence>
   );
