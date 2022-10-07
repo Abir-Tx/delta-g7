@@ -34,8 +34,14 @@ export default function LitReviewCard(props) {
         </a>
 
         <div className="revText-con">
-          <h4>Short Summary</h4>
-          <p>{props.review}</p>
+          {Object.keys(details[props.refName][0]["summary"][0]).map(
+            (key, i) => (
+              <div className="con">
+                <h3>{key}</h3>
+                <p>{details[props.refName][0]["summary"][0][key]}</p>
+              </div>
+            )
+          )}
 
           <div className="ref-con">
             <h4>References</h4>
