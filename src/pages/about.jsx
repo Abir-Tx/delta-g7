@@ -81,6 +81,8 @@ export default function About() {
             github={details["shidujaman"][0].github}
             rsg={details["shidujaman"][0].rsg}
             linkedin={details["shidujaman"][0].linkedin}
+            id={details["shidujaman"][0].id}
+            email={details["shidujaman"][0].email}
             start={true}
           />
         </div>
