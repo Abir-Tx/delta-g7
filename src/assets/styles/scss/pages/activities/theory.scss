@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+.theory-con {
+  color: var(--primary);
+  .title {
+    text-align: center;
+    h2 {
+      padding: 20px;
+    }
+  }
+}
