@@ -11,15 +11,27 @@
           "ass1": "https://drive.google.com/file/d/1XAivjrcOoWEWC221fayGDGEyqLA9ixbR/view?usp=sharing"
         }
       ],
-            "refs":[
+      "refs": [
         {
-          "ref1": "#",
-          "ref2": "#"
+          "ref1": "https://www.academia.edu/5081408/A_PROPOSAL_OF_BODY_IMPLEMENTABLE_EARLY_HEART_ATTACK_DETECTION_SYSTEM?bulkDownload=thisPaper-topRelated-sameAuthor-citingThis-citedByThis-secondOrderCitations&from=cover_page?",
+          "ref2": "https://www.scirp.org/journal/paperinformation.aspx?paperid=88650",
+          "ref3": "https://www.hindawi.com/journals/jhe/2020/8868685/",
+          "ref4": "https://www.academia.edu/44784429/IJERT_Heart_Disease_Prediction_using_Machine_Learning_Techniques?from=cover_page?",
+          "ref5": "#"
+        }
+      ],
+      "summary": [
+        {
+          "Summary 1": "Heart attack is the number one killer in recent time. To prevent from heart attack, an early treatment is needed. However, heart attack usually happens promptly. So, early heart attack detection is needed so that an immediate precaution can be made. Our proposed solution can able to detect the early heart attack situation and convey the report to patient and his doctor at least three hours before.",
+          "Summary 2": "In future works, Photoplethysmography (PPG) based blood pressure sensor module or electronic sphygmomanometer can also be connected to the Arduino which will be capable of transmitting real-time data to the server. This sensor is not added to the designed patient monitoring system due to the unavailability of a clinically recognized system at this moment, although huge research is going on the development of PPG based blood pressure monitor.",
+          "Summary 3": "This paper presents a lightweight adaptive MMT ECG signal R-wave detection algorithm. After denoising the ECG signal and correcting the baseline, the algorithm performs first-order difference processing, detects the R-wave through the maximum and minimum difference threshold, and updates the threshold according to the index information of the R-wave. The algorithm of R-wave detection in an athletic flat test is in good condition, and in the MIT/BIH database of 21 ECG data detection, through comparing with Pandit algorithm and Lai algorithm, the presented method of R-wave identification not only is of high sensitivity (Se) and high positive predictive but also has advantages in terms of computing requirements.",
+          "Summary 4": "The overall aim is to define various data mining techniques useful in effective heart disease prediction. Efficient and accurate prediction with a lesser number of attributes and tests is the goal of this research. The data were pre-processed and then used in the model. Random Forest with 86.89% and XGBoost with 78.69% are the most efficient algorithms. However, K-Nearest Neighbor performed with the worst accuracy with 57.83. We can further expand this research incorporating other data mining techniques such as time series, clustering and association rules and other ensemble techniques. Considering the limitations of this study, there is a need to implement more complex and combination of models to get higher accuracy for early prediction of heart disease.",
+          "Summary 5": "In this work we have developed a sign language with proper grammar so that patients with total paralysis can communicate. For this purpose, we have used basic sentence structure of ASL and added two more parts which are Mode and Negation. Mode is the basic category of words or options and negation turns the previous selected word into its antonym. We also added special signs for quick response. The interpreting system requires detecting the pupil position of the eye. As we segmented the eye movements into certain directions, gaze estimation techniques were required to detect the eye position. Instead, we used CNN to classify the movements and achieved excellent results. The network has only 15 layers and we showed that having fewer layers will not affect on the performance, thus training and forward propagation time will be less. This means we can use this network for real time videos. The accuracy and the prediction time is of substantial importance in times of emergency. Our network has shown promise in both of these aspects.  In future we plan to conduct a test bed of our proposed solutions and in second phase we are trying to develop an on chip laboratory, which is inside the body that can detect the critical troponin level and convey the report to the user. In that case the sensor itself is decentralized and independent and there is no need to depend upon any remote monitoring system or any access network. That device can be micro level which is directly connected with a smart phone."
         }
       ],
       "litRevLink": "#",
-      "id":"#",
-      "email":"#"
+      "id": "20-42738-1",
+      "email": "mushfiqurrohomanabir@gmail.com"
     }
   ],
   "elma": [
@@ -34,15 +46,27 @@
           "ass1": "https://drive.google.com/file/d/1-BKwGhssljg6SL-lFzxQGsIg-jrhIqvb/view?usp=drivesdk"
         }
       ],
-                  "refs":[
+      "refs": [
         {
-          "ref1": "#",
-          "ref2": "#"
+          "ref1": "https://dl.acm.org/doi/abs/10.1155/2014/625156",
+          "ref2": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-syb.2015.0012",
+          "ref3": "http://www.jcreview.com/admin/Uploads/Files/61a9c16c5cd5c6.82533458.pdf",
+          "ref4": "https://5y1.org/download/0a43bed2693e541e456f721265252037.pdf",
+          "ref5": "#"
+        }
+      ],
+      "summary": [
+        {
+          "Summary 1": "This research describes a real-time heart monitoring system that can be used by a range of users, including elderly people and CVD patients. The system is built on a wearable, basic, affordable gadget with functions that are comparable to more expensive, complex healthcare instruments. High-level system speed is attributed to a number of intricate algorithms that were developed in the Android smartphone. The stress test, heart rhythm classification, and sinus rhythm detection algorithms have been entirely developed by our group, whereas the arrhythmia classification and detection algorithm and the algorithm evaluating energy expenditure use well-established techniques that have been modified to suit the real-time and mobile conditions of the current application.",
+          "Summary 2": "Although, the proposed 12-lead ECG-based algorithm is aimed toward detection of MI episodes, detection of single lead-based less fatal cardiac conditions such as bradycardia, tachycardia, ectopic beats and different types of arrhythmias is possible using our system by employing algorithms trained for these specific abnormalities. In fact, a previous work uses the same dataset (MIT-BIH) and feature list to detect supraventricular and ventricular ectopic beats accurately using a single lead ECG. The future scope of this paper includes detailed feature engineering to extract potential information from ECG signals which are not covered in the present paper. We believe that incorporating algorithms for detection of other cardiac diseases such as arrhythmia, atrial fibrillation etc. will make it a comprehensive cardiac solution.",
+          "Summary 3": "The Internet of Things is considered now as one of the feasible solutions for any remote value tracking especially in the field of health monitoring. It facilitates that the individual prosperity parameter data is secured inside the cloud, stays in the hospital are reduced for conventional routine examinations and most important that the health can be monitored and disease diagnosed by any doctor at any distance. In this paper, an IoT based health monitoring system was developed. The system monitored body temperature, pulse rate and room humidity and temperature using sensors, which are also displayed on a LCD. These sensor values are then sent to a medical server using wireless communication. These data are then received in an authorized personals smart phone with IoT platform. With the values received the doctor then diagnose the disease and the state of health of the patient",
+          "Summary 4": "The proposed system of patient health monitoring can be highly used in emergency situations as it can be daily monitored, recorded and stored as a database. In future the IOT device can be combined with the cloud computing so that the database can be shared in all the hospitals for the intensive care and treatment.",
+          "Summary 5": "#"
         }
       ],
       "litRevLink": "#",
-      "id":"#",
-      "email":"#"
+      "id": "#",
+      "email": "#"
     }
   ],
   "emon": [
@@ -57,15 +81,27 @@
           "ass1": "#"
         }
       ],
-                  "refs":[
+      "refs": [
         {
-          "ref1": "#",
-          "ref2": "#"
+          "ref1": "https://test.globalinfocloud.com/technodigisoftnew/wp-content/uploads/2019/07/Survey-on-IOT-Arduino-Based-Patient-Health-Monitoring.pdf",
+          "ref2": "https://www.academia.edu/download/55661976/V1I101.pdf",
+          "ref3": "https://iopscience.iop.org/article/10.1088/1742-6596/1916/1/012146/meta",
+          "ref4": "https://link.springer.com/chapter/10.1007/978-3-319-28658-7_41",
+          "ref5": "https://www.academia.edu/download/46063765/health_monitoring_system_paper.pdf"
+        }
+      ],
+      "summary": [
+        {
+          "Summary 1": "As health care services are important part of our society, automating these services lessen the burden on humans and eases the measuring process. Also the transparency of this system helps patients to trust it. The objective of developing monitoring systems is to reduce health care costs by reducing physician office visits, hospitalizations, and diagnostic testing procedure. Many further improvements can bemade in our system to make it better and easily adaptable such as adding more advanced sensors. Because of wireless data transmission over internet, health related data will be send to doctor’s personal computer or on his mobile. So, need to go hospital every time and sending massage to the doctor gets immediate remedy related to the health condition.",
+          "Summary 2": "This research led to the development of a system which measured heartbeat and temperature of a patient and sent it to a remote end by the use of a Arduino and Atmega328 microcontroller at a reasonable cost with great effect. It utilized remote patient monitoring system technology which enabled the monitoring of patients outside of clinical settings and leads to increasing access to health care as well as decreasing the health care delivery costs. Nowadays, most of the systems work in offline mode. The research utilized two sensors for measuring heartbeat and temperature of a body. These sensors are controlled by the Atmega328 microcontroller. For measurement of heartbeat, we used fingertip to measure it accurately. The device uses the optical technology to detect the flow of blood through the finger. The heart beat monitor in our research counts the heart beat rate in beats per minute (bpm) for specific interval and transfers the calculated rate via Wi-Fi module and sends it to a remote end where it displays the observed data in the website called Thingspeak.com. Optical sensor with combination of infrared light emitting diode (IR LED) and IR photodiode senses the pulse rate that produces weak output of analog signal. The signal is then amplified and filtered and fed to the microcontroller input. The microcontroller processes the input and calculates heart beat rate in beats per minute. Thus, calculated heart beat rate is displayed in liquid crystal display (LCD). The data is also displayed on the screen of a mobile device or PC by using WiFi module. LM35 is used as a temperature sensor in this project which measures the temperature of the body and the measured data is fed to the transmitter module. Wireless system is used to transmit the measured data to a remote location. The transmitter transmits the calculated beat rate and is received in another terminal called receiver module. Inconvenience of using wire is avoided in this research. Finally, the data are displayed in the mobile screen or PC at the receiving end where the specialist or physician can analyze the data and will be able to provide aid. The developed system is reliable, economical and user friendly.",
+          "Summary 3": "In order to enhance the healthcare accoutrement in an address accompanying total casework, patient welfare monitoring outside the apple agree has begun to analyse various abstruse explications. As any typical method idea, right from the production phase this framework is still used. As heavy and as lourd as a separate handle in addition, costs require additional assistance in comparison to the propelling system Moreover, more than 1 minute detracts from making the right thing happen. The ECG, Blood Pressure and Temperature Control device takes less than one minute to compute. Scope reduces, since the combination of medicinal data sensors on a single component, similar to the conservative approach. So, the complication of time costs minimized.",
+          "Summary 4": "The proposed work suggests the design of a health care system that provides various services to monitor the patients using wireless technology. It is an intelligent Remote Patient monitoring system which is integrating patient monitoring with various sensitive parameters, wireless devices and integrated mobile and IT solutions. This system mainly provides a solution for heart diseases by monitoring heart rate and blood pressure. It also acts as a decision-making system which will reduce the time before treatment. Apart from the decision-making techniques, it generates and forwards alarm messages to the relevant caretakers by means of various wireless technologies. The proposed system suggests a framework for measuring the heart rate, temperature and blood pressure of the patient using a wearable gadget and the measured parameters is transmitted to the Bluetooth enabled Android smartphone.",
+          "Summary 5": "In this proposed model of monitoring physiological parameters such as temperature, heartbeat, ECG, blood sugar, are more powerful than currently available system. Currently available systems for monitoring physiological signals suffer from technical limitations. The proposed system is an enormous improvement over existing commercial methods, the present system can support up to twenty patients with real-time, low-power, low-cost, long-distance, and dual-mode monitoring, from the above designed project. The keil C software is used for implementing the process and results were discussed. In future we can expand this system by using RFID technology; through this technology we can monitor the multiple numbers of patients. It may be a future work to develop another patient monitoring application code in that direction."
         }
       ],
       "litRevLink": "#",
-      "id":"#",
-      "email":"#"
+      "id": "#",
+      "email": "#"
     }
   ],
   "sawon": [
@@ -80,15 +116,27 @@
           "ass1": "https://drive.google.com/file/d/1IQLo0-MWsR4XrmEDriEet6nypYX0VY1h/view?usp=sharing"
         }
       ],
-                  "refs":[
+      "refs": [
         {
-          "ref1": "#",
-          "ref2": "#"
+          "ref1": "https://www.researchgate.net/publication/329268152_Heart_Attack_Detection_and_Heart_Rate_Monitoring_Using_IoT?enrichId=rgreq-78603c61cf1f2686b0918741b8090249-XXX&enrichSource=Y292ZXJQYWdlOzMyOTI2ODE1MjtBUzo2OTgyMDE1MzEyNDQ1NDRAMTU0MzQ3NTYyNTE2OQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf",
+          "ref2": "https://www.academia.edu/40352143/Heart_Attack_Detection_By_Heartbeat_Sensing_using_Internet_Of_Things_IoT?auto=citations&from=cover_page?",
+          "ref3": "#",
+          "ref4": "https://www.academia.edu/43750388/IoT_based_heart_monitoring_and_alerting_system_with_cloud_computing_and_managing_the_traffic_for_an_ambulance_in_India?auto=citations&from=cover_page?",
+          "ref5": "https://www.researchgate.net/publication/342397496_Development_of_a_Sign_Language_for_Total_Paralysis_and_Interpretation_using_Deep_Learning"
+        }
+      ],
+      "summary": [
+        {
+          "Summary 1": "In this exploration we have attempted to propose a total paper on detecting heart attack by monitoring the heartbeat of person. The heart beat sensor which is interfaced with microcontroller senses the heartbeat of person and transmits them over internet using Wi-Fi module. System allows setting limits of heart beat. After setting these limits person can start monitoring the heart beat and whenever the person’s heartbeat goes above certain set point, they can get an alert on high heart beat and also about chances of heart attack. Also, the system alerts for lower heartbeat.",
+          "Summary 2": "Now a days we have an increased risk of heart attacks. This system which helps to detect heart rate of person using heart beat sensing even if person is at home. This system also helps for hospital monitoring system, all patient monitored by single person in server room. This system which helps to measure body  temperature, heartbeat, pulses of person. we will make this system for animals so we can save them. If this technology will developed then we can detect heart blockage through this technology by our project.",
+          "Summary 3": "Present days we have an expanded danger of heart attacks. This framework which detects heart pulse of individual utilizing heartbeat sensor regardless of whether an individual is at home. This framework additionally helps for hospital monitoring system, all the patients observed by a single individual in the server room. This framework estimates body temperature, the heartbeat of an individual regularly. A heart attack isn't anything but difficult to identify, to survive and help our general public from heart illnesses and attack, I am proposing a system which will help early recognition a heart attack. In this framework, we are actualizing a heartbeat monitoring and heart detection system utilizing the Internet of Things.",
+          "Summary 4": "The proposed system is though not yet implemented however preliminary results shows that life of a patient can be saved if the treatment is provided on time. The system is tested with a limited number of people; the system is taking correct values from the patient body and triggering the alert if any emergency is sensed. The framework aims at reducing the deaths caused by cardiac arrest especially when the patient is in sleep or unconscious. Moreover, the proposed framework will help to improve the faster accessibility of ambulance in the city. The proposed system is user-friendly and economical so that the CVD patients can afford and could keep close tabs; so, in case of emergency help could reach them through the fastest route.",
+          "Summary 5": "In this work we have developed a sign language with proper grammar so that patients with total paralysis can communicate. For this purpose, we have used basic sentence structure of ASL and added two more parts which are Mode and Negation. Mode is the basic category of words or options and negation turns the previous selected word into its antonym. We also added special signs for quick response. The interpreting system requires detecting the pupil position of the eye. As we segmented the eye movements into certain directions, gaze estimation techniques were required to detect the eye position. Instead, we used CNN to classify the movements and achieved excellent results. The network has only 15 layers and we showed that having fewer layers will not affect on the performance, thus training and forward propagation time will be less. This means we can use this network for real time videos. The accuracy and the prediction time is of substantial importance in times of emergency. Our network has shown promise in both of these aspects.  In future we plan to conduct a test bed of our proposed solutions and in second phase we are trying to develop an on chip laboratory, which is inside the body that can detect the critical troponin level and convey the report to the user. In that case the sensor itself is decentralized and independent and there is no need to depend upon any remote monitoring system or any access network. That device can be micro level which is directly connected with a smart phone."
         }
       ],
       "litRevLink": "#",
-      "id":"#",
-      "email":"#"
+      "id": "20-42680-1",
+      "email": "sawonsalman44@gmail.com"
     }
   ],
   "urmi": [
@@ -103,15 +151,27 @@
           "ass1": "https://drive.google.com/file/d/1N-i-yDxlLHyegynzS9eAen7SRP3kPoiE/view?usp=sharing"
         }
       ],
-                  "refs":[
+      "refs": [
         {
-          "ref1": "#",
-          "ref2": "#"
+          "ref1": "https://www.academia.edu/50009574/IJERT_Comparative_Analysis_and_Implementation_of_Heart_Stroke_Prediction_using_Various_Machine_Learning_Techniques?from=cover_page?",
+          "ref2": "https://www.academia.edu/42995554/IJERT_Heart_Disease_Prediction_using_Machine_Learning?from=cover_page?",
+          "ref3": "https://doi.org/10.1088/1742-6596/1817/1/012009?",
+          "ref4": "https://onlinelibrary.wiley.com/doi/full/10.1002/ejhf.567",
+          "ref5": "https://www.sciencedirect.com/science/article/abs/pii/S0045790617328410"
+        }
+      ],
+      "summary": [
+        {
+          "Summary 1": "As heart diseases and strokes are increasing rapidly acrossthe world and causing deaths, it becomes necessary todevelop an efficient system that would predict the heartstroke effectively before hand so that immediate medicalattention can be given. In the proposed system, the mosteffective algorithm for stroke prediction was obtained aftercomparative analysis of the accuracy scores of variousmodels. The most effective one was Decision Tree withaccuracy score of 100%.",
+          "Summary 2": "With the increasing number of deaths due to heart diseases, ithas become mandatory to develop a system to predict heartdiseases effectively and accurately. The motivation for thestudy was to find the most efficient ML algorithm fordetection of heart diseases. This study compares the accuracyscore of Decision Tree, Logistic Regression, Random Forestand Naive Bayes algorithms for predicting heart disease usingUCI machine learning repository dataset. The result of thisstudy indicates that the Random Forest algorithm is the mostefficient algorithm with accuracy score of 90.16% forprediction of heart disease. In future the work can beenhanced by developing a web application based on theRandom Forest algorithm as well as using a larger dataset ascompared to the one used in this analysis which will help toprovide better results and help health professionals inpredicting the heart disease effectively and efficiently.",
+          "Summary 3": "In this paper random forest data mining algorithm was implemented for prediction of heart disease. From the experimental work we obtained the Sensitivity value 90.6%. specificity value 82.7, and accuracy value of 86.9 for prediction. In the proposed work we obtained classification accuracy of 86.9%for prediction of heart disease with diagnosis rate of 93.3% using random forest algorithm. The proposed system can also be used for prediction of other disease by applying with other machine learning algorithm such as Naïve Bayes, decision tree, K-NN, Linear regression, fuzzy logic for better accuracy. Cloud computing technology can also be used for the proposed system to manage large volume of patient data.",
+          "Summary 4": "The absolute number of HF cases and related hospital days in Germany considerably increased between 2000 and 2013, whereas the number of HF-related deaths remained consistently high. These findings support the profound impact exerted by HF on both the patients and the health-care system. The increasing burden of HF necessitates a further increase in awareness for this disease and underscores an urgent need for improved diagnostic, therapeutic, and preventive strategies.",
+          "Summary 5": "This paper proposes a scalable IoT based three-tier architecture to process the sensor data and identify the most significant clinical parameters to get heart disease. The most significant clinical parameters that indicate impending heart disease are identified with the help of ROC analysis. Blood Sugar (BS)-Fasting and Blood Sugar (BS)-Post Meal are found to have positive correlation with heart disease."
         }
       ],
       "litRevLink": "#",
-      "id":"#",
-      "email":"#"
+      "id": "20-42360-1",
+      "email": "a.suraiya360@gmail.com"
     }
   ],
   "shidujaman": [
@@ -123,6 +183,68 @@
       "rsg": "https://www.researchgate.net/profile/Mohammad-Shidujaman",
       "id": "2109-2121-2",
       "email": "mjaman@aiub.edu"
+    }
+  ],
+  "lab": [
+    {
+      "lab1": [
+        {
+          "title": "Lab 1",
+          "link": "#",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.idgesg.net%2Fimages%2Farticle%2F2018%2F02%2Fcircuit_board_circuits_development_thinkstock_804292452-100749645-large.jpg&f=1&nofb=1&ipt=70429cc8343d75c523051454ee2dcd026b55dddaa36a3e3886a9b2963db03f67&ipo=images",
+          "desc": "Familiarization with a microcontroller, the study of blink test and implementation of a traffic control system using microcontrollers"
+        }
+      ]
+    },
+    {
+      "lab2": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab3": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab4": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab5": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab6": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
     }
   ]
 }
