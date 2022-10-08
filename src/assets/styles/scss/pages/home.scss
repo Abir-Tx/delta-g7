@@ -2,7 +2,7 @@
 @import "../variables.scss";
 
 .master-bg {
-  background-image: url("/src/assets/images/bg/blurry-gradient-bg.png");
+  background-image: url("/src/assets/images/bg/Background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   .landing {
@@ -14,6 +14,10 @@
     align-items: center;
     h1 {
       font-size: 10vh;
+      visibility: hidden;
+    }
+    h4 {
+      visibility: hidden;
     }
   }
 }
