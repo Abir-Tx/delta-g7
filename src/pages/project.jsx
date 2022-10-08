@@ -77,6 +77,16 @@ export default function Project() {
             obcaecati illo commodi officiis aspernatur beatae nostrum ipsum
             aperiam. Aliquid alias expedita veniam?
           </p>
+
+          <p className="text-center">
+            <a
+              href="https://drive.google.com/file/d/14Fh8_siluIxJKd_B-vvnZZya_AFECrlC/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="btn btn-primary">Open the Proposal</div>
+            </a>
+          </p>
         </div>
       </div>
 
