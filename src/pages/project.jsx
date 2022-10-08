@@ -79,6 +79,41 @@ export default function Project() {
           </p>
         </div>
       </div>
+
+      <div className="survey-con">
+        <h2>Survey Questions</h2>
+
+        <div className="embed-con">
+          <div className="desc">
+            <p>
+              We asked the audience about these questions and got the responses
+              which are discussed below
+            </p>
+
+            <a
+              href="https://forms.office.com/r/wEv9ayHj43"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="btn btn-primary m-4">Open The Survey</div>
+            </a>
+          </div>
+          <iframe
+            className="survey"
+            title="survey"
+            width="750vw"
+            height="780px"
+            src="https://forms.office.com/r/wEv9ayHj43?embed=true"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            allowfullscreen
+            webkitallowfullscreen
+            mozallowfullscreen
+            msallowfullscreen
+          />
+        </div>
+      </div>
     </motion.div>
   );
 }

@@ -76,4 +76,24 @@
       }
     }
   }
+
+  .survey-con {
+    padding: 30px;
+    h2 {
+      padding-left: 20px;
+      color: rgb(104, 211, 230);
+      padding: 20px;
+      text-align: center;
+    }
+    .embed-con {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .survey {
+        border: none;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
 }
