@@ -74,8 +74,8 @@ export default function Header(props) {
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content" id="myDropdown">
-                <a href="/activities/theory">Theory</a>
-                <a href="/activities/lab">Lab</a>
+                <NavLink to="/activities/theory">Theory</NavLink>
+                <NavLink to="/activities/lab">Lab</NavLink>
               </div>
             </div>
           </li>

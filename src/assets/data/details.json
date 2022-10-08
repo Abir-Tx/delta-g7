@@ -184,5 +184,67 @@
       "id": "2109-2121-2",
       "email": "mjaman@aiub.edu"
     }
+  ],
+  "lab": [
+    {
+      "lab1": [
+        {
+          "title": "Lab 1",
+          "link": "#",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.idgesg.net%2Fimages%2Farticle%2F2018%2F02%2Fcircuit_board_circuits_development_thinkstock_804292452-100749645-large.jpg&f=1&nofb=1&ipt=70429cc8343d75c523051454ee2dcd026b55dddaa36a3e3886a9b2963db03f67&ipo=images",
+          "desc": "Familiarization with a microcontroller, the study of blink test and implementation of a traffic control system using microcontrollers"
+        }
+      ]
+    },
+    {
+      "lab2": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab3": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab4": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab5": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    },
+    {
+      "lab6": [
+        {
+          "title": "#",
+          "link": "#",
+          "image": "#",
+          "desc": "#"
+        }
+      ]
+    }
   ]
 }
