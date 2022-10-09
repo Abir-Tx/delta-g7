@@ -1,10 +1,10 @@
 import React from "react";
 import "../../assets/styles/css/lab.min.css";
 import { motion } from "framer-motion";
-import lab1Img from "../../assets/images/bg/circuit.png";
 import LabCard from "../../components/labCard";
 import { useEffect, useState } from "react";
 import backupDetails from "../../assets/data/details.json";
+import Gallery from "../../components/gallery";
 
 export default function Lab(props) {
   const [details, setTest] = useState(backupDetails);
@@ -36,6 +36,11 @@ export default function Lab(props) {
         <h2>Lab Activities</h2>
       </div>
       <div className="reports-con">
+        <ul>
+          <li>
+            <h2>Lab Reports</h2>
+          </li>
+        </ul>
         <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
           <LabCard
             title={lab1.title}
@@ -58,6 +63,16 @@ export default function Lab(props) {
             desc={lab3.desc}
           />
         </div>
+      </div>
+
+      <div className="labPhotos-con">
+        <ul>
+          <li>
+            <h2>Lab Performances</h2>
+          </li>
+        </ul>
+
+        <Gallery />
       </div>
     </motion.div>
   );
