@@ -141,8 +141,8 @@
   ],
   "urmi": [
     {
-      "name": "Suraiya Urmi",
-      "bio": "I am Suraiya Akter - student of American International University-Bangladesh(AIUB). Now I am a Computer Science Engineering student in this university & I learn programming.I am very interested in computer programming. I love doing  cooking, traveling and I also interested music and read some book.i also very interest in sleeping in my free time and i really love this.",
+      "name": "Suraiya Akter",
+      "bio": "I am Suraiya Akter - student of American International University-Bangladesh(AIUB). Now I am a Computer Science Engineering student in this university & I learn programming.I am very interested in computer programming. I love doing  cooking, traveling and I also interested music and read some book.",
       "github": "https://github.com/suraiya-akter",
       "linkedin": "https://www.linkedin.com/in/suraiya-akter-40355a251/?originalSubdomain=bd",
       "rsg": "https://www.researchgate.net/profile/Suraiya-Akter-8",
@@ -199,20 +199,20 @@
     {
       "lab2": [
         {
-          "title": "#",
-          "link": "#",
-          "image": "#",
-          "desc": "#"
+          "title": "Lab 2",
+          "link": "https://drive.google.com/file/d/1CicM4Skmh0ooIh4BL4iht4v12gfCKSor/view?usp=sharing",
+          "image": "http://drive.google.com/uc?export=view&id=1iEhEdRlLuMDWnLuabXHgzKgENFxn1QCd",
+          "desc": "Familiarization with an STM32, the study of blink test and implementation of a light-controlling system using microcontrollers."
         }
       ]
     },
     {
       "lab3": [
         {
-          "title": "#",
-          "link": "#",
-          "image": "#",
-          "desc": "#"
+          "title": "Lab 3",
+          "link": "https://drive.google.com/file/d/1jPg6ZlKpuzIwSY0Yws-e3O1THbTkx6eG/view?usp=sharing",
+          "image": "http://drive.google.com/uc?export=view&id=19PRtCyhJK1D0029UtfyFDzM7QNH_y2UE",
+          "desc": "Timers: Implementation of a traffic control system"
         }
       ]
     },
