@@ -7,6 +7,7 @@ const images = [
   {
     original: "https://i.postimg.cc/nhmQVKMW/lab2-1.jpg",
     thumbnail: "https://i.postimg.cc/nhmQVKMW/lab2-1.jpg",
+    description: "Lab 2",
   },
   {
     original: "https://i.postimg.cc/pXFdKWxh/lab3-1.jpg",
