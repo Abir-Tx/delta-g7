@@ -13,6 +13,20 @@ export default function Theory() {
       <div className="title-con">
         <h2>Theory Activities</h2>
       </div>
+
+      <div className="classAct">
+        <h3 className="p-4">Class Activities</h3>
+        <div class="card m-4">
+          <h5 class="card-header bg-primary">Class 1</h5>
+          <div class="card-body bg-info">
+            <h5 class="card-title">No Activity Available</h5>
+            <p class="card-text">Currently there are no activities of class</p>
+            <a href="#" class="btn btn-primary">
+              Go somewhere
+            </a>
+          </div>
+        </div>
+      </div>
     </motion.div>
   );
 }
