@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/styles/css/theory.min.css";
 import { motion } from "framer-motion";
+import meeting1Img from "../../assets/images/meeting/meeting1.png";
 
 export default function Theory() {
   return (
@@ -22,9 +23,17 @@ export default function Theory() {
             <h5 class="card-title">No Activity Available</h5>
             <p class="card-text">Currently there are no activities of class</p>
             <a href="#" class="btn btn-primary">
-              Go somewhere
+              Details
             </a>
           </div>
+        </div>
+      </div>
+
+      <div className="meeting">
+        <h3 className="p-4">Group Meeting</h3>
+        <div className="imageGrids">
+          <img className="meeting1" src={meeting1Img} alt="Meeting 1" />
+          <h5 className="text-center">Meeting 1</h5>
         </div>
       </div>
     </motion.div>
