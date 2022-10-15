@@ -11,6 +11,7 @@ import emonImg from "../assets/images/profile/emon.jpg";
 import elmaImg from "../assets/images/profile/elma.jpg";
 import sawonImg from "../assets/images/profile/sawon.jpg";
 import urmiImg from "../assets/images/profile/urmi.jpg";
+import reajImg from "../assets/images/profile/reaj.jpg";
 import shidujamanImg from "../assets/images/profile/shidujaman-sir.jpg";
 
 import mpImg from "../assets/images/microProc.png";
@@ -147,6 +148,18 @@ export default function About() {
             id={details["emon"][0].id}
             email={details["emon"][0].email}
             start={false}
+          />
+
+          <Singles
+            bio={details["reaj"][0].bio}
+            img={reajImg}
+            name={details["reaj"][0].name}
+            github={details["reaj"][0].github}
+            rsg={details["reaj"][0].rsg}
+            linkedin={details["reaj"][0].linkedin}
+            id={details["reaj"][0].id}
+            email={details["reaj"][0].email}
+            start={true}
           />
         </div>
       </div>
