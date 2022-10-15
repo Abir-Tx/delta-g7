@@ -37,7 +37,7 @@
   "elma": [
     {
       "name": "Tasnia Tarannom Elma",
-      "bio": "\"I am Tasnia Tarannom Elma.I'm Computer Science Engineering student in American International University of Bangladesh (AIUB).I am learning programming and I am also interested in software development.I love singing and I love baking in my free time.",
+      "bio": "I am Tasnia Tarannom Elma.I'm Computer Science Engineering student in American International University of Bangladesh (AIUB).I am learning programming and I am also interested in software development.I love singing and I love baking in my free time.",
       "github": "https://github.com/Tasnia-Elma",
       "linkedin": "https://www.linkedin.com/in/tarannum-elma-aaab67251/",
       "rsg": "https://www.researchgate.net/profile/Tasnia-Elma",
@@ -65,8 +65,8 @@
         }
       ],
       "litRevLink": "#",
-      "id": "#",
-      "email": "#"
+      "id": "20-42686-1",
+      "email": "tasnia.tarannum430@gmail.com"
     }
   ],
   "emon": [
@@ -100,8 +100,8 @@
         }
       ],
       "litRevLink": "#",
-      "id": "#",
-      "email": "#"
+      "id": "20-42707-1",
+      "email": "zubayeremon079@gmail.com "
     }
   ],
   "sawon": [
@@ -174,6 +174,35 @@
       "email": "a.suraiya360@gmail.com"
     }
   ],
+  "reaj": [
+    {
+      "name": "Reaj",
+      "id": "20-43999-2",
+      "bio": "#",
+      "github": "#",
+      "rsg": "#",
+      "assignment": [
+        {
+          "ass1": "#"
+        }
+      ],
+      "refs": [
+        {
+          "ref1": "#",
+          "ref2": "#",
+          "ref3": "#",
+          "ref4": "#",
+          "ref5": "#"
+        }
+      ],
+      "summary":[
+        {
+          "Summary 1": "#",
+          "Summary 2": "#"
+        }
+      ]
+    }
+  ],
   "shidujaman": [
     {
       "name": "Dr. Mohammad Shidujaman",
@@ -200,7 +229,7 @@
       "lab2": [
         {
           "title": "Lab 2",
-          "link": "https://drive.google.com/file/d/1CicM4Skmh0ooIh4BL4iht4v12gfCKSor/view?usp=sharing",
+          "link": "https://drive.google.com/file/d/1lcskXR-uCakp_aGiNp4AWCc6yBm0Y2Uh/view?usp=sharing",
           "image": "http://drive.google.com/uc?export=view&id=1iEhEdRlLuMDWnLuabXHgzKgENFxn1QCd",
           "desc": "Familiarization with an STM32, the study of blink test and implementation of a light-controlling system using microcontrollers."
         }

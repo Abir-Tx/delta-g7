@@ -6,7 +6,7 @@ import emonImg from "../assets/images/profile/emon.jpg";
 import elmaImg from "../assets/images/profile/elma.jpg";
 import sawonImg from "../assets/images/profile/sawon.jpg";
 import urmiImg from "../assets/images/profile/urmi.jpg";
-
+import reajImg from "../assets/images/profile/reaj.jpg";
 // Data
 import details from "../assets/data/details.json";
 
@@ -85,6 +85,29 @@ export default function Members() {
                   <button>Researchgate</button>
                 </a>
                 <a href={details["urmi"][0].linkedin}>
+                  <button>LinkedIn</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col  mx-1">
+            <div className="member">
+              <img
+                src={reajImg}
+                alt="reaj"
+                className="img-fluid"
+                height="93.50%"
+                width="93.50%"
+              />
+              <div className="btn-con">
+                <a href={details["reaj"][0].github}>
+                  <button>GitHub</button>
+                </a>
+                <a href={details["reaj"][0].rsg}>
+                  <button>Researchgate</button>
+                </a>
+                <a href={details["reaj"][0].linkedin}>
                   <button>LinkedIn</button>
                 </a>
               </div>
