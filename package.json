@@ -19,6 +19,7 @@
     "react-image-gallery": "^1.2.11",
     "react-pdf": "^5.7.2",
     "react-responsive-image-grid": "^1.1.0",
+    "react-responsive-masonry": "^2.1.6",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
