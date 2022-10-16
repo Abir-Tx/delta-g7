@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "../assets/styles/css/project.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import pdfFile from "../assets/data/pdf/Project-proposal-updated.pdf";
+import GridGallery from "../components/gridGallery";
 export default function Project() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -123,6 +124,10 @@ export default function Project() {
             msallowfullscreen
           />
         </div>
+      </div>
+
+      <div className="projGall">
+        <GridGallery />
       </div>
     </motion.div>
   );
