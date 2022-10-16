@@ -23,6 +23,19 @@ export default function Project() {
   function changePageNext() {
     changePage(+1);
   }
+
+  const images = [
+    "      https://i.postimg.cc/Z5NW5rPc/microprocessor-components-by-mushfiqur-rahman-abir-1.jpg",
+    "https://i.postimg.cc/CKWJfC9x/microprocessor-components-by-mushfiqur-rahman-abir-10.jpg",
+    "https://i.postimg.cc/fbjkxDrS/microprocessor-components-by-mushfiqur-rahman-abir-2.jpg",
+    "https://i.postimg.cc/tTKfpG9D/microprocessor-components-by-mushfiqur-rahman-abir-3.jpg",
+    "https://i.postimg.cc/Vs94dCgz/microprocessor-components-by-mushfiqur-rahman-abir-4.jpg",
+    "https://i.postimg.cc/Fs8fvPSz/microprocessor-components-by-mushfiqur-rahman-abir-5.jpg",
+    "https://i.postimg.cc/7LCm6tsR/microprocessor-components-by-mushfiqur-rahman-abir-6.jpg",
+    "https://i.postimg.cc/4x2WXR5t/microprocessor-components-by-mushfiqur-rahman-abir-7.jpg",
+    // "https://i.postimg.cc/BQ6D4LwY/microprocessor-components-by-mushfiqur-rahman-abir-8.jpg",
+    "https://i.postimg.cc/jdKgXX2W/microprocessor-components-by-mushfiqur-rahman-abir-9.jpg",
+  ];
   return (
     <motion.div
       className="project-con"
@@ -127,7 +140,8 @@ export default function Project() {
       </div>
 
       <div className="projGall">
-        <GridGallery />
+        <h2>Components Gallery</h2>
+        <GridGallery images={images} />
       </div>
     </motion.div>
   );
