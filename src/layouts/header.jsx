@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 // Stylesheets
 import "../assets/styles/css/header.min.css";
@@ -66,10 +67,10 @@ export default function Header(props) {
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content" id="myDropdown">
-                  <Link to="/project">Overview</Link>
-                  <Link to="/project#proposal">Proposal</Link>
-                  <Link to="/project#survey">Survey Question</Link>
-                  <Link to="/project#componentGallery">Components</Link>
+                  <HashLink to="/project">Overview</HashLink>
+                  <HashLink to="/project#proposal">Proposal</HashLink>
+                  <HashLink to="/project#survey">Survey Question</HashLink>
+                  <HashLink to="/project#componentGallery">Components</HashLink>
                 </div>
               </div>
             </li>
