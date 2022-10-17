@@ -143,6 +143,8 @@ export default function Project() {
         <h2>Components Gallery</h2>
         <GridGallery images={images} />
       </div>
+
+      <a href="#survey">Test</a>
     </motion.div>
   );
 }
