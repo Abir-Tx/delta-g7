@@ -63,7 +63,7 @@ export default function Project() {
         </p>
       </div>
 
-      <div className="proposal">
+      <div className="proposal" id="proposal">
         <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber} />
           <div className="navigation">
@@ -104,7 +104,7 @@ export default function Project() {
         </div>
       </div>
 
-      <div className="survey-con">
+      <div className="survey-con" id="survey">
         <h2>Survey Questions</h2>
 
         <div className="embed-con">
@@ -139,7 +139,7 @@ export default function Project() {
         </div>
       </div>
 
-      <div className="projGall">
+      <div className="projGall" id="componentGallery">
         <h2>Components Gallery</h2>
         <GridGallery images={images} />
       </div>

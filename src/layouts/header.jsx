@@ -51,6 +51,7 @@ export default function Header(props) {
           </li>
           <li>
             <NavLink to="/project">Project</NavLink>
+            {/* TODO: use react router hash link npm package here */}
           </li>
 
           <li>
