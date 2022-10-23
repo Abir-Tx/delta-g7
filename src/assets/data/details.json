@@ -71,14 +71,14 @@
   ],
   "emon": [
     {
-      "name": "Md. Zobair Ibne Ataur",
+      "name": "Al- Jobair Ibna Ataur",
       "bio": "Hello! I'm Al-Jobair Ibna Ataur is an accomplished explorer, programmer,designer and author. I enjoy traveling all throughout the year to see the wonders of the natural world and to learn about various human cultures. I'm a CSE student at AIUB right now. That is why issues relating to IT are so prevalent. primarily security-related work.  I'm highly interested on English and Bengali literature as well as various digital and non-digital design. I enjoy watching movies, TV-Series, and football games in my free time.",
       "github": "https://github.com/AlJobair079",
       "linkedin": "https://www.linkedin.com/in/al-jobair-emon-0a2557226",
       "rsg": "https://www.researchgate.net/profile/Al-Jobair-Ataur",
       "assignment": [
         {
-          "ass1": "#"
+          "ass1": "https://drive.google.com/file/d/1V2L9r2lyZ1_wpGLE4wC-jhPfY4Awncmy/view"
         }
       ],
       "refs": [
@@ -120,18 +120,18 @@
         {
           "ref1": "https://www.researchgate.net/publication/329268152_Heart_Attack_Detection_and_Heart_Rate_Monitoring_Using_IoT?enrichId=rgreq-78603c61cf1f2686b0918741b8090249-XXX&enrichSource=Y292ZXJQYWdlOzMyOTI2ODE1MjtBUzo2OTgyMDE1MzEyNDQ1NDRAMTU0MzQ3NTYyNTE2OQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf",
           "ref2": "https://www.academia.edu/40352143/Heart_Attack_Detection_By_Heartbeat_Sensing_using_Internet_Of_Things_IoT?auto=citations&from=cover_page?",
-          "ref3": "#",
+          "ref3": "https://www.researchgate.net/publication/49617135_Applications_of_Data_Mining_Techniques_in_Healthcare_and_Prediction_of_Heart_Attacks",
           "ref4": "https://www.academia.edu/43750388/IoT_based_heart_monitoring_and_alerting_system_with_cloud_computing_and_managing_the_traffic_for_an_ambulance_in_India?auto=citations&from=cover_page?",
-          "ref5": "https://www.researchgate.net/publication/342397496_Development_of_a_Sign_Language_for_Total_Paralysis_and_Interpretation_using_Deep_Learning"
+          "ref5": "https://www.mdpi.com/1999-5903/13/5/111"
         }
       ],
       "summary": [
         {
           "Summary 1": "In this exploration we have attempted to propose a total paper on detecting heart attack by monitoring the heartbeat of person. The heart beat sensor which is interfaced with microcontroller senses the heartbeat of person and transmits them over internet using Wi-Fi module. System allows setting limits of heart beat. After setting these limits person can start monitoring the heart beat and whenever the person’s heartbeat goes above certain set point, they can get an alert on high heart beat and also about chances of heart attack. Also, the system alerts for lower heartbeat.",
           "Summary 2": "Now a days we have an increased risk of heart attacks. This system which helps to detect heart rate of person using heart beat sensing even if person is at home. This system also helps for hospital monitoring system, all patient monitored by single person in server room. This system which helps to measure body  temperature, heartbeat, pulses of person. we will make this system for animals so we can save them. If this technology will developed then we can detect heart blockage through this technology by our project.",
-          "Summary 3": "Present days we have an expanded danger of heart attacks. This framework which detects heart pulse of individual utilizing heartbeat sensor regardless of whether an individual is at home. This framework additionally helps for hospital monitoring system, all the patients observed by a single individual in the server room. This framework estimates body temperature, the heartbeat of an individual regularly. A heart attack isn't anything but difficult to identify, to survive and help our general public from heart illnesses and attack, I am proposing a system which will help early recognition a heart attack. In this framework, we are actualizing a heartbeat monitoring and heart detection system utilizing the Internet of Things.",
+          "Summary 3": "We investigated the issue of constricting and summarizing various data mining algorithms. We concentrated on applying several algorithms to forecast combinations of various goal attributes. In this research, we use data mining to provide a smart and useful heart attack prediction algorithm. First, in order to effectively anticipate heart attacks, we have created a method for extracting meaningful patterns from heart disease data warehouses. The frequent patterns with values greater than a predetermined threshold were selected for the valuable prediction of heart attack based on the estimated significant weightage. Based on data exploration and business intelligence, five mining goals are identified. The objectives will be assessed in comparison to the trained models. All of these models were able to predict complicated questions.",
           "Summary 4": "The proposed system is though not yet implemented however preliminary results shows that life of a patient can be saved if the treatment is provided on time. The system is tested with a limited number of people; the system is taking correct values from the patient body and triggering the alert if any emergency is sensed. The framework aims at reducing the deaths caused by cardiac arrest especially when the patient is in sleep or unconscious. Moreover, the proposed framework will help to improve the faster accessibility of ambulance in the city. The proposed system is user-friendly and economical so that the CVD patients can afford and could keep close tabs; so, in case of emergency help could reach them through the fastest route.",
-          "Summary 5": "In this work we have developed a sign language with proper grammar so that patients with total paralysis can communicate. For this purpose, we have used basic sentence structure of ASL and added two more parts which are Mode and Negation. Mode is the basic category of words or options and negation turns the previous selected word into its antonym. We also added special signs for quick response. The interpreting system requires detecting the pupil position of the eye. As we segmented the eye movements into certain directions, gaze estimation techniques were required to detect the eye position. Instead, we used CNN to classify the movements and achieved excellent results. The network has only 15 layers and we showed that having fewer layers will not affect on the performance, thus training and forward propagation time will be less. This means we can use this network for real time videos. The accuracy and the prediction time is of substantial importance in times of emergency. Our network has shown promise in both of these aspects.  In future we plan to conduct a test bed of our proposed solutions and in second phase we are trying to develop an on chip laboratory, which is inside the body that can detect the critical troponin level and convey the report to the user. In that case the sensor itself is decentralized and independent and there is no need to depend upon any remote monitoring system or any access network. That device can be micro level which is directly connected with a smart phone."
+          "Summary 5": "The datasets and numerous machine learning algorithms presented in the last two decades, employing just limited features for better anomaly detection and more effective network security, have attracted a lot of attention to NIDS in SDN-based machine learning techniques. The benchmarking dataset NSL-KDD is used in this work for both training and testing. In order to enhance and optimize the algorithm's performance for accurate prediction and to make training as easy and efficient as possible, feature normalization, feature selection, and data pretreatment techniques are used. We examine Random Forest, Decision Trees, and XGBoost, three traditional tree-based machine learning algorithms, in order to choose the best approach. We investigate them using a range of evaluation measures to determine the drawbacks and benefits of utilizing one or more. The proposed XGBoost model outperformed more than seven NIDS algorithms using six different assessment metrics. The suggested approach was centered on identifying anomalies and defending the SDN platform against intrusions in live situations. The proposed approaches simultaneously detected whether an attack was occurring and identified the type of assault (Dos, probe, U2R, R2L). More evaluation indicators will be used in upcoming investigations. We want to use a variety of deep neural network methods, including Auto-Encoder, to accomplish the strategy. These methods have been demonstrated in the literature to enable practical approaches to anomaly detection in NIDS applications. In order to learn more about how we may design an effective anomaly detection system in NIDS with less time and resource consumption, we also intend to compare these methods to one another and integrate one or more neural network architectures. Additionally, to ensure that the suggested algorithm is chosen without bias in any circumstance, multiple benchmarking cyber security datasets, including NSL-KDD, UNSW-NB15, and CIC-IDS2017, will be done."
         }
       ],
       "litRevLink": "#",
@@ -176,31 +176,36 @@
   ],
   "reaj": [
     {
-      "name": "Reaj",
-      "id": "20-43999-2",
-      "bio": "#",
-      "github": "#",
-      "rsg": "#",
+      "name": "Md Asgor Hossain Reaj",
+      "bio": "Hello, my name is Asgor, and I am a computer science student. I love learning how computers work, I am excited to learn more about this field and continue contributing to the world around me through technology. I’ve always been passionate about learning new things, whether reading a book or watching a movie. I just can’t get enough of it! My most extensive interests include programming, mathematics",
+      "github": "https://github.com/Asgorreaj",
+      "rsg": "https://www.researchgate.net/profile/Asgor-Hossain-Reaj",
       "assignment": [
         {
-          "ass1": "#"
+          "ass1": "https://docs.google.com/document/d/1mfu9GjjHg311pm55wBnK3zK_sGUwyoZl/edit?usp=sharing&ouid=101310000127798342408&rtpof=true&sd=true"
         }
       ],
       "refs": [
         {
-          "ref1": "#",
-          "ref2": "#",
-          "ref3": "#",
-          "ref4": "#",
-          "ref5": "#"
+          "ref1": "https://www.researchgate.net/profile/Nehal-Patel-8/publication/329268152_Heart_Attack_Detection_and_Heart_Rate_Monitoring_Using_IoT/links/5bff91a992851c63caafd378/Heart-Attack-Detection-and-Heart-Rate-Monitoring-Using-IoT.pdf",
+          "ref2": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4481996/#ref-list-1title",
+          "ref3": "https://d1wqtxts1xzle7.cloudfront.net/87036508/Heart_Attack_Prediction_System_Using_IoT_and_Machine_Learning-with-cover-page-v2.pdf?Expires=1665858821&Signature=SnkKSyNX9aedI0S4xvcOufFD2Aj8KwwztozJGVNQ~hX5550F~hlB5qtMr1KZFMRR~-sTmnM7XIs0p7NpCtunPNFM4o0Lut7TqMVnX5ZHWpPg75vjjTBI5Py-mdQOf7txAoyqprJ99gfcLybDu6hqGxt11or8fqE62-60K3tNEMKelcWn7Q4rdJURGH9MwVQFAU1jxpc4Kju1KALw-fH8nnvNG4i~D5u11B6OHHuZ-2W0QV3SQ4auL5YV~4Jo-QsRyRn7kYI-z13zuIP9TUmiB8DW~oTcAQBsuht~9c9CS-loDsh9TGLHoR63kFf9drQ7cj9XKN2tKn~SyF8PV-JV8g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA",
+          "ref4": "ijcrt.org/papers/IJCRT2205221.pdf",
+          "ref5": "https://www.ijert.org/research/Heart-Attack-Detection-System-using-IoT-IJERTCONV7IS08051.pdf"
         }
       ],
-      "summary":[
+      "summary": [
         {
-          "Summary 1": "#",
-          "Summary 2": "#"
+          "Summary 1": "These days variety of individuals square measure losing their life thanks to heart failure. heart failure will occur once the flow of blood to heart is blocked. due to late designation of heart failure we tend to square measure inadequate to save lots of the lives of the many humans. during this paper, we advise a system which will sight heart failure by watching the guts rate supported IoT (Internet of Things). For a healthy adult, standard heartrate is sixty to a hundred pace (beats per minute). athlete’s heart beat typically vary from forty to sixty pace relying upon their fitness. If a person’s pulse is continually over a hundred beats per minute, then the person is alleged to be having higher pulse that is additionally ill-famed as tachyarrhythmia. It will diminution the potency of heart by dissatisfaction the quantity of blood pumped up through the body may result in pain and light-headedness. With the advancement in technology, it's straightforward to watch the patient’s pulse even reception. IoT is manual dexterity of network mechanism to intellect and gather data from world ubiquitously North American nation then share the knowledge aslant web anyplace it is managed for a few tenacities.",
+          "Summary 2": "In this exploration we've tried to propose a complete paper on detective work attack by observance the heartbeat of person. the guts beat detector that is interfaced with microcontroller senses the heartbeat of person and transmits them over web mistreatment Wi-Fi module. System permits setting limits of heart beat. once setting these limits person will begin observance the guts beat and whenever the person’s heart beat goes on top of sure set point they'll get AN alert on high heart beat and conjointly concerning possibilities of attack. conjointly the system alerts for lower heartbeat.",
+          "Summary 3": "Developed a system that measures and detects the patient's human heartbeat and temperature, then communicates the data to the user or server finish via a microcontroller at a coffee price. Use 2 completely different sensors and these ar chiefly below the control of micro-controllers. For Human Heartbeat mensuration use tip, it's in beats per minute (beats per minute). These calculated rates ar reaching to be hold on inside the server by transferring through the Wi-Fi module via the online. a liquid display (LCD) has been wont to show the calculated human heartbeat rate. ",
+          "Summary 4": "If system detects any abrupt changes in patient heartbeat or body temperature, the system automatically alerts the user about the patients status over IOT and also shows details of heartbeat, temperature and SPO2 of patient live over the internet. The sensors to webpages with Internet of Things (IoT) concept experimentally tested for monitoring three parameters. It also sent the sensor parameters to the Push Bullet (application). This data will be helpful for future analysis and it can be easily shared to other end users. Then the collected data and analysis results will be available to the end user through the Wi-Fi. Thus IOT based patient heartrate monitoring and heart attack detection system effectively uses internet to monitor patient health stats and save lives on time.",
+          "Summary 5": "System allows setting limits of beat. After setting these limits person can start monitoring the heart beat and whenever the persons heart beat goes above certain set point they can get an alert on high heart beat and also about chances of heart attack. Also the system alerts for lower heartbeat."
         }
-      ]
+      ],
+      "litRevLink": "#",
+      "id": "20-43999-2",
+      "email": "asgorreaj@gmail.com"
     }
   ],
   "shidujaman": [
@@ -248,10 +253,10 @@
     {
       "lab4": [
         {
-          "title": "#",
-          "link": "#",
-          "image": "#",
-          "desc": "#"
+          "title": "Lab 4",
+          "link": "https://drive.google.com/file/d/1wUVSn4TeEyxdRKsgTcfWBk3gUPIJk81R/view?usp=sharing",
+          "image": "http://drive.google.com/uc?export=view&id=1NkjDCe9Q7FHyuRkW4catxEjb9V290I9g",
+          "desc": "Taking external inputs in Arduino: Implementation of runway approach lights"
         }
       ]
     },
