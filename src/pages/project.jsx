@@ -4,6 +4,8 @@ import "../assets/styles/css/project.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import pdfFile from "../assets/data/pdf/Project-proposal-updated.pdf";
 import GridGallery from "../components/gridGallery";
+import surveyRes from "../assets/data/pdf/surveyRes.pdf";
+
 export default function Project() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -136,6 +138,31 @@ export default function Project() {
             mozallowfullscreen
             msallowfullscreen
           />
+        </div>
+      </div>
+
+      <div className="surveyRes-con">
+        <h2>Survey Results</h2>
+
+        <div className="embed-con">
+          <Document file={surveyRes}>
+            <Page pageNumber={2} />
+          </Document>
+
+          <div className="desc">
+            <p>
+              Here is the result and graph of our survey reports. We colleceted
+              the results from 50+ participants
+            </p>
+
+            <a
+              href="https://drive.google.com/file/d/1J28zPmHSrk6fPHkHVNkzWAXSNKTeGPvR/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="btn btn-primary m-4">Open Survey Results</div>
+            </a>
+          </div>
         </div>
       </div>
 
