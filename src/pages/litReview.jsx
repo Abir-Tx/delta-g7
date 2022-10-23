@@ -10,6 +10,7 @@ import emonImg from "../assets/images/profile/emon.jpg";
 import elmaImg from "../assets/images/profile/elma.jpg";
 import sawonImg from "../assets/images/profile/sawon.jpg";
 import urmiImg from "../assets/images/profile/urmi.jpg";
+import reajImg from "../assets/images/profile/reaj.jpg";
 
 export default function LitReview() {
   return (
@@ -63,6 +64,13 @@ export default function LitReview() {
           pdf={pdfFile}
           review="Hey this is a test"
           refName="emon"
+        />
+
+        <LitReviewCard
+          image={reajImg}
+          pdf={pdfFile}
+          review="Hey this is a test"
+          refName="reaj"
         />
       </div>
     </motion.div>
