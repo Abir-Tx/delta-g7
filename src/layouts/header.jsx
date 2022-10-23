@@ -76,6 +76,7 @@ export default function Header(props) {
               <div class="dropdown-content" id="myDropdown">
                 <NavLink to="/activities/theory">Theory</NavLink>
                 <NavLink to="/activities/lab">Lab</NavLink>
+                <NavLink to="/activities/presentation">Presentation</NavLink>
               </div>
             </div>
           </li>
