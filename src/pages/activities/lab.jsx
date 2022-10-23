@@ -69,6 +69,13 @@ export default function Lab(props) {
             image={lab4.image}
             desc={lab4.desc}
           />
+
+          <LabCard
+            title={lab5.title}
+            link={lab5.link}
+            image={lab5.image}
+            desc={lab5.desc}
+          />
         </div>
       </div>
 
