@@ -9,9 +9,11 @@ export default function Footer() {
       <footer>
         <div className="foot-con">
           <div className="">
-            <a href="https://github.com/Abir-Tx">
-              <code>© Abir | 2022</code>
-            </a>
+            <code>
+              With ♥ By{" "}
+              <a href="https://github.com/Abir-Tx">Mushfiqur Rahman Abir</a> | ©
+              2022{" "}
+            </code>
           </div>
         </div>
       </footer>

@@ -25,15 +25,20 @@
     }
     a {
       text-decoration: none;
+      color: rgb(89, 178, 198);
+      transition: 0.3s ease-in;
+      &:hover {
+        color: red;
+      }
     }
     code {
       text-decoration: none;
       color: var(--primary);
       font-size: 1.2rem;
       transition: 0.3s;
-      &:hover {
+      /*       &:hover {
         color: blue;
-      }
+      } */
     }
   }
 }
