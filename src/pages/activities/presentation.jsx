@@ -11,7 +11,7 @@ export default function Presentation() {
           <iframe
             className="pres"
             title="pre"
-            src="https://onedrive.live.com/embed?cid=F735D58E8FAD0A5D&amp;resid=F735D58E8FAD0A5D%2155339&amp;authkey=AKpatFUDjX5pFnU&amp;em=2&amp;wdAr=1.7777777777777777"
+            src="https://onedrive.live.com/embed?cid=9E31E8D6AB27977A&resid=9E31E8D6AB27977A%211354&authkey=AANkzz9QL6W0nvI&em=2"
             width="1000px"
             height="500px"
             frameborder="0"
