@@ -23,7 +23,7 @@ export default function Lab(props) {
   const lab3 = details["lab"][2]["lab3"][0];
   const lab4 = details["lab"][3]["lab4"][0];
   const lab5 = details["lab"][4]["lab5"][0];
-  const lab6 = details["lab"][5]["lab5"][0];
+  const lab6 = details["lab"][5]["lab6"][0];
 
   return (
     <motion.div
