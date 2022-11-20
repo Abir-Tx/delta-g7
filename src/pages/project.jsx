@@ -197,6 +197,8 @@ export default function Project() {
           </li>
           <li>Kilo Ohm 14 W Resistors- Pack of 5 5*4=20 </li>
         </ul>
+
+        <h4>Total Cost: 6130</h4>
       </div>
     </motion.div>
   );
