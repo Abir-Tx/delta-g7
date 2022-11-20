@@ -59,14 +59,14 @@ export default function Header(props) {
                   class="dropbtn"
                   onClick={(e) =>
                     document
-                      .getElementById("myDropdown")
+                      .getElementById("projectDropdown")
                       .classList.toggle("show")
                   }
                 >
                   Project
                   <i class="fa fa-caret-down"></i>
                 </button>
-                <div class="dropdown-content" id="myDropdown">
+                <div class="dropdown-content" id="projectDropdown">
                   <HashLink to="/project">Overview</HashLink>
                   <HashLink to="/project#proposal">Proposal</HashLink>
                   <HashLink to="/project#survey">Survey Question</HashLink>
