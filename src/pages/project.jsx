@@ -176,6 +176,32 @@ export default function Project() {
         <h2>Components Gallery</h2>
         <GridGallery images={images} />
       </div>
+
+      <div className="compoCost">
+        <h2>Price Analysis</h2>
+
+        <ul>
+          <li>
+            Arduino Uno R3 1140*1=1140 ESP8266 ESP-01 WIFI Wireless Transceiver
+          </li>
+          <li>Send Receive LWIP AP+ STA M70 200*1=200</li>
+          <li>LM35 Temperature Senso 5*1=95</li>
+          <li>10K Ohm Potentiometer 20*1=20</li>
+          <li>Heart Rate Pulse Sensor Module For Arduino 399*1=399</li>
+          <li>
+            Jumper Wire Single Medium - Jumper WIRE Type: Male to Female 3*15=45
+          </li>
+          <li>Blue LED 5MM (Pack of 5) 5* 5=25</li>
+          <li>
+            16X2 Serial LCD Module Display For Arduino Assembled 395*1=395
+          </li>
+          <li>Kilo Ohm 14 W Resistors- Pack of 5 5*4=20 </li>
+        </ul>
+
+        <h4>Total Cost: 6130</h4>
+      </div>
+
+      <code>The End</code>
     </motion.div>
   );
 }
