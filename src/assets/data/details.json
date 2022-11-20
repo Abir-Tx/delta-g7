@@ -204,7 +204,7 @@
           "Summary 5": "System allows setting limits of beat. After setting these limits person can start monitoring the heart beat and whenever the persons heart beat goes above certain set point they can get an alert on high heart beat and also about chances of heart attack. Also the system alerts for lower heartbeat."
         }
       ],
-      "litRevLink": "#",
+      "litRevLink": "https://www.linkedin.com/in/md-asgor-hossain-reaj-7775641a5/",
       "id": "20-43999-2",
       "email": "asgorreaj@gmail.com"
     }
@@ -264,20 +264,30 @@
     {
       "lab5": [
         {
-          "title": "#",
-          "link": "#",
-          "image": "#",
-          "desc": "#"
+          "title": "Lab 5",
+          "link": "https://drive.google.com/file/d/102NL3jRQeIx4LRxz7ogc1kTbzvP7NYy8/view?usp=drivesdk",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUxEPZtFZ6-nZLR26kzjeJlJ_MQwKMXQO_KC4kipFaYRyBj7a9tadgi0gx4LnjLMODvqw&usqp=CAU",
+          "desc": "Familiarization of assembly language in a micro-controller"
         }
       ]
     },
     {
       "lab6": [
         {
-          "title": "#",
-          "link": "#",
-          "image": "#",
-          "desc": "#"
+          "title": "Lab 6",
+          "link": "https://drive.google.com/file/d/1o3cnE3EHNzy2PiBdROYSdxv5TSPuE9IO/view?usp=sharing",
+          "image": "http://drive.google.com/uc?export=view&id=1HyQGeFueOmsUEZzlZgJdyI_0VvfP_1DJ",
+          "desc": "Interfacing the Arduino with an external sensor to establish communication usingthe RS-232 protocol with implementing an obstacle detection system"
+        }
+      ]
+    },
+    {
+      "lab7": [
+        {
+          "title": "Lab 7",
+          "link": "https://drive.google.com/file/d/1o3cnE3EHNzy2PiBdROYSdxv5TSPuE9IO/view?usp=sharing",
+          "image": "http://drive.google.com/uc?export=view&id=1HyQGeFueOmsUEZzlZgJdyI_0VvfP_1DJ",
+          "desc": "Lab 7"
         }
       ]
     }
