@@ -200,6 +200,8 @@ export default function Project() {
 
         <h4>Total Cost: 6130</h4>
       </div>
+
+      <code>The End</code>
     </motion.div>
   );
 }
