@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 // Stylesheets
@@ -70,7 +70,9 @@ export default function Header(props) {
                   <HashLink to="/project">Overview</HashLink>
                   <HashLink to="/project#proposal">Proposal</HashLink>
                   <HashLink to="/project#survey">Survey Question</HashLink>
-                  <HashLink to="/project#componentGallery">Components</HashLink>
+                  <HashLink to="/project#surveyRes">Survey Result</HashLink>
+                  <HashLink to="/project#projGall">Components Gallery</HashLink>
+                  <HashLink to="/project#compoCost">Cost Analysis</HashLink>
                 </div>
               </div>
             </li>

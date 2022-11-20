@@ -150,7 +150,7 @@ export default function Project() {
       <div className="surveyRes-con">
         <h2>Survey Results</h2>
 
-        <div className="embed-con">
+        <div className="embed-con" id="surveyRes">
           <Document file={surveyRes}>
             <Page pageNumber={2} />
           </Document>
@@ -172,12 +172,12 @@ export default function Project() {
         </div>
       </div>
 
-      <div className="projGall">
+      <div className="projGall" id="projGall">
         <h2>Components Gallery</h2>
         <GridGallery images={images} />
       </div>
 
-      <div className="compoCost">
+      <div className="compoCost" id="compoCost">
         <h2>Price Analysis</h2>
 
         <ul>
