@@ -4,6 +4,8 @@ import "../assets/styles/css/project.min.css";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import pdfFile from "../assets/data/pdf/Project-proposal-updated.pdf";
 import GridGallery from "../components/gridGallery";
+import surveyRes from "../assets/data/pdf/surveyRes.pdf";
+
 export default function Project() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -25,7 +27,7 @@ export default function Project() {
   }
 
   const images = [
-    "      https://i.postimg.cc/Z5NW5rPc/microprocessor-components-by-mushfiqur-rahman-abir-1.jpg",
+    "https://i.postimg.cc/Z5NW5rPc/microprocessor-components-by-mushfiqur-rahman-abir-1.jpg",
     "https://i.postimg.cc/CKWJfC9x/microprocessor-components-by-mushfiqur-rahman-abir-10.jpg",
     "https://i.postimg.cc/fbjkxDrS/microprocessor-components-by-mushfiqur-rahman-abir-2.jpg",
     "https://i.postimg.cc/tTKfpG9D/microprocessor-components-by-mushfiqur-rahman-abir-3.jpg",
@@ -35,6 +37,12 @@ export default function Project() {
     "https://i.postimg.cc/4x2WXR5t/microprocessor-components-by-mushfiqur-rahman-abir-7.jpg",
     // "https://i.postimg.cc/BQ6D4LwY/microprocessor-components-by-mushfiqur-rahman-abir-8.jpg",
     "https://i.postimg.cc/jdKgXX2W/microprocessor-components-by-mushfiqur-rahman-abir-9.jpg",
+    "https://i.postimg.cc/x8dbcbTX/20221119-121417.jpg",
+    "https://i.postimg.cc/xdKm7241/20221119-121446.jpg",
+    "https://i.postimg.cc/XvMFQJxP/20221119-121456.jpg",
+    "https://i.postimg.cc/zvPHWXV0/20221119-122003.jpg",
+    "https://i.postimg.cc/3Jc209GY/20221119-122017.jpg",
+    "https://i.postimg.cc/V6gCfF1y/20221119-122036.jpg",
   ];
   return (
     <motion.div
@@ -139,12 +147,35 @@ export default function Project() {
         </div>
       </div>
 
-      <div className="projGall" id="componentGallery">
+      <div className="surveyRes-con">
+        <h2>Survey Results</h2>
+
+        <div className="embed-con">
+          <Document file={surveyRes}>
+            <Page pageNumber={2} />
+          </Document>
+
+          <div className="desc">
+            <p>
+              Here is the result and graph of our survey reports. We colleceted
+              the results from 50+ participants
+            </p>
+
+            <a
+              href="https://drive.google.com/file/d/1J28zPmHSrk6fPHkHVNkzWAXSNKTeGPvR/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="btn btn-primary m-4">Open Survey Results</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="projGall">
         <h2>Components Gallery</h2>
         <GridGallery images={images} />
       </div>
-
-      <a href="#survey">Test</a>
     </motion.div>
   );
 }

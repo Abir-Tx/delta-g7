@@ -1,0 +1,27 @@
+@import "../../variables.scss";
+
+.presCon {
+  padding: 30px;
+  color: var(--primary);
+  h2 {
+    padding-left: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(104, 211, 230);
+  }
+
+  .embed-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .pres {
+      border: none;
+      border-radius: 30px;
+    }
+
+    .desc {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+}

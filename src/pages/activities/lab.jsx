@@ -23,7 +23,8 @@ export default function Lab(props) {
   const lab3 = details["lab"][2]["lab3"][0];
   const lab4 = details["lab"][3]["lab4"][0];
   const lab5 = details["lab"][4]["lab5"][0];
-  // const lab6 = details["lab"][5]["lab5"][0];
+  const lab6 = details["lab"][5]["lab6"][0];
+  const lab7 = details["lab"][6]["lab7"][0];
 
   return (
     <motion.div
@@ -68,6 +69,27 @@ export default function Lab(props) {
             link={lab4.link}
             image={lab4.image}
             desc={lab4.desc}
+          />
+
+          <LabCard
+            title={lab5.title}
+            link={lab5.link}
+            image={lab5.image}
+            desc={lab5.desc}
+          />
+
+          <LabCard
+            title={lab6.title}
+            link={lab6.link}
+            image={lab6.image}
+            desc={lab6.desc}
+          />
+
+          <LabCard
+            title={lab7.title}
+            link={lab7.link}
+            image={lab7.image}
+            desc={lab7.desc}
           />
         </div>
       </div>

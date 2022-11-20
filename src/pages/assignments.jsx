@@ -37,7 +37,6 @@ export default function Assignments() {
           conIdHash="#con1"
           show={true}
         ></AssignmentCard>
-
         <AssignmentCard
           name={details["elma"][0].name}
           amNo="1"
@@ -46,7 +45,6 @@ export default function Assignments() {
           conId="con2"
           conIdHash="#con2"
         ></AssignmentCard>
-
         <AssignmentCard
           name={details["sawon"][0].name}
           amNo="1"
@@ -55,7 +53,6 @@ export default function Assignments() {
           conId="con3"
           conIdHash="#con3"
         ></AssignmentCard>
-
         <AssignmentCard
           name={details["urmi"][0].name}
           amNo="1"
@@ -64,14 +61,21 @@ export default function Assignments() {
           conId="con4"
           conIdHash="#con4"
         ></AssignmentCard>
-
         <AssignmentCard
           name={details["emon"][0].name}
           amNo="1"
-          elma={details["emon"][0]["assignment"][0].ass1}
+          link={details["emon"][0]["assignment"][0].ass1}
           hId="acc5"
           conId="con5"
           conIdHash="#con5"
+        ></AssignmentCard>
+        <AssignmentCard
+          name={details["reaj"][0].name}
+          amNo="1"
+          link={details["reaj"][0]["assignment"][0].ass1}
+          hId="acc6"
+          conId="con6"
+          conIdHash="#con6"
         ></AssignmentCard>
       </div>
     </motion.div>

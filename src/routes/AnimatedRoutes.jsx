@@ -15,6 +15,7 @@ import Assignments from "../pages/assignments";
 import LitReview from "../pages/litReview";
 import Theory from "../pages/activities/theory";
 import Lab from "../pages/activities/lab";
+import Presentation from "../pages/activities/presentation";
 
 export default function AnimatedRoutes(props) {
   const location = useLocation();
@@ -30,6 +31,7 @@ export default function AnimatedRoutes(props) {
         <Route path="/lit-review" element={<LitReview />} />
         <Route path="/activities/theory" element={<Theory />} />
         <Route path="/activities/lab" element={<Lab />} />
+        <Route path="/activities/presentation" element={<Presentation />} />
       </Routes>
     </AnimatePresence>
   );
