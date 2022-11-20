@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 // Stylesheets
 import "../assets/styles/css/header.min.css";
@@ -50,7 +51,31 @@ export default function Header(props) {
             <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <NavLink to="/project">Project</NavLink>
+            {/* <NavLink to="/project">Project</NavLink> */}
+            {/* TODO: use react router hash link npm package here */}
+            <li>
+              <div class="dropdown">
+                <button
+                  class="dropbtn"
+                  onClick={(e) =>
+                    document
+                      .getElementById("projectDropdown")
+                      .classList.toggle("show")
+                  }
+                >
+                  Project
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="projectDropdown">
+                  <HashLink to="/project">Overview</HashLink>
+                  <HashLink to="/project#proposal">Proposal</HashLink>
+                  <HashLink to="/project#survey">Survey Question</HashLink>
+                  <HashLink to="/project#surveyRes">Survey Result</HashLink>
+                  <HashLink to="/project#projGall">Components Gallery</HashLink>
+                  <HashLink to="/project#compoCost">Cost Analysis</HashLink>
+                </div>
+              </div>
+            </li>
           </li>
 
           <li>
